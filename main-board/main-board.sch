@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 14
+Sheet 1 19
 Title ""
 Date ""
 Rev ""
@@ -131,4 +131,40 @@ F2 "5V" I L 8200 3650 50
 F3 "GND" I L 8200 3800 50 
 F4 "Control" I L 8200 3950 50 
 $EndSheet
+$Sheet
+S 3550 5000 600  400 
+U 60751B36
+F0 "Jetson Power Button and LED" 50
+F1 "JetsonPower.sch" 50
+$EndSheet
+$Sheet
+S 8250 2550 550  550 
+U 60751BEA
+F0 "OpenLog" 50
+F1 "OpenLog.sch" 50
+F2 "3.3V" I L 8250 2650 50 
+F3 "GND" I L 8250 2750 50 
+F4 "TX" O L 8250 2900 50 
+F5 "RX" I L 8250 3000 50 
+$EndSheet
+$Sheet
+S 2250 1650 500  450 
+U 60751D8F
+F0 "Battery and Protection" 50
+F1 "Battery.sch" 50
+F2 "VOut" O R 2750 1800 50 
+F3 "GND" O R 2750 1950 50 
+$EndSheet
+$Sheet
+S 3500 1650 550  450 
+U 60753C1A
+F0 "Power Supply" 50
+F1 "PowerSupply.sch" 50
+F2 "Vin" I L 3500 1800 50 
+F3 "GND" B L 3500 1950 50 
+F4 "5V" O R 4050 1800 50 
+F5 "3.3V" O R 4050 1950 50 
+$EndSheet
+Text Notes 600  1100 0    50   ~ 0
+Sheets left to make:\nPower monitor\nTemperature sensor(s)\nIMU\nBackup Comms\nMotor Kill Switch and Relay
 $EndSCHEMATC
