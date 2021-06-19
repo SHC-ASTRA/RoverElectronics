@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:main-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3550 2950 1000 1750
+S 4200 2950 1000 1750
 U 6074DEC8
 F0 "Primary Controller" 50
 F1 "PrimaryController.sch" 50
@@ -123,7 +122,7 @@ F3 "GND" I L 8200 3800 50
 F4 "Control" I L 8200 3950 50 
 $EndSheet
 $Sheet
-S 3550 5000 600  400 
+S 2300 3900 600  400 
 U 60751B36
 F0 "Jetson Power Button and LED" 50
 F1 "JetsonPower.sch" 50
