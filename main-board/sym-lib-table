@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name ASTRA_Library)(type Legacy)(uri ${KIPRJMOD}/../ASTRA_Library.lib)(options "")(descr ""))
+  (lib (name Prototype_Library)(type Legacy)(uri ${KIPRJMOD}/../MainElectronicsLib.lib)(options "")(descr ""))
 )

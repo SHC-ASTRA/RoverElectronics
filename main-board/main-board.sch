@@ -1,9 +1,9 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A2 23386 16535
 encoding utf-8
-Sheet 1 23
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -13,211 +13,1260 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 4200 2950 1000 1750
-U 6074DEC8
-F0 "Primary Controller" 50
-F1 "PrimaryController.sch" 50
-$EndSheet
-$Sheet
-S 5850 2950 900  1750
-U 6074DFD7
-F0 "Auxiliary Controller" 50
-F1 "AuxiliaryController.sch" 50
-$EndSheet
-$Sheet
-S 9850 750  1150 600 
-U 6074E0BF
-F0 "Motor and Driver 1" 50
-F1 "Motor.sch" 50
-F2 "GND" I L 9850 1000 50 
-F3 "5V" I L 9850 900 50 
-F4 "RX" I L 9850 1150 50 
-F5 "TX" O L 9850 1250 50 
-$EndSheet
-$Sheet
-S 9850 2400 1150 600 
-U 6074ED4A
-F0 "Motor and Driver 3" 50
-F1 "Motor.sch" 50
-F2 "GND" I L 9850 2650 50 
-F3 "5V" I L 9850 2550 50 
-F4 "RX" I L 9850 2800 50 
-F5 "TX" O L 9850 2900 50 
-$EndSheet
-$Sheet
-S 9850 3250 1150 600 
-U 6074EB9F
-F0 "Motor and Driver 4" 50
-F1 "Motor.sch" 50
-F2 "GND" I L 9850 3500 50 
-F3 "5V" I L 9850 3400 50 
-F4 "RX" I L 9850 3650 50 
-F5 "TX" O L 9850 3750 50 
-$EndSheet
-$Sheet
-S 9850 4100 1150 600 
-U 6074EA58
-F0 "Motor and Driver 5" 50
-F1 "Motor.sch" 50
-F2 "GND" I L 9850 4350 50 
-F3 "5V" I L 9850 4250 50 
-F4 "RX" I L 9850 4500 50 
-F5 "TX" O L 9850 4600 50 
-$EndSheet
-$Sheet
-S 9850 4950 1150 600 
-U 6074E8BC
-F0 "Motor and Driver 6" 50
-F1 "Motor.sch" 50
-F2 "GND" I L 9850 5200 50 
-F3 "5V" I L 9850 5100 50 
-F4 "RX" I L 9850 5350 50 
-F5 "TX" O L 9850 5450 50 
-$EndSheet
-$Sheet
-S 8250 700  550  600 
-U 607506EB
-F0 "Status LED" 50
-F1 "StatusLED.sch" 50
-F2 "5V" I L 8250 850 50 
-F3 "GND" I L 8250 1000 50 
-F4 "Data" I L 8250 1150 50 
-$EndSheet
-$Sheet
-S 8250 1650 550  600 
-U 6075089C
-F0 "GPS" 50
-F1 "GPS.sch" 50
-F2 "3.3V" I L 8250 1750 50 
-F3 "GND" I L 8250 1850 50 
-F4 "SCL" B L 8250 2050 50 
-F5 "SDA" B L 8250 2150 50 
-$EndSheet
-$Sheet
-S 8200 5000 650  550 
-U 60751491
-F0 "Cooling Fan 3" 50
-F1 "CoolingFan.sch" 50
-F2 "5V" I L 8200 5150 50 
-F3 "GND" I L 8200 5300 50 
-F4 "Control" I L 8200 5450 50 
-$EndSheet
-$Sheet
-S 8200 4250 650  550 
-U 6075154E
-F0 "Cooling Fan 2" 50
-F1 "CoolingFan.sch" 50
-F2 "5V" I L 8200 4400 50 
-F3 "GND" I L 8200 4550 50 
-F4 "Control" I L 8200 4700 50 
-$EndSheet
-$Sheet
-S 8200 3500 650  550 
-U 6075179F
-F0 "Cooling Fan 1" 50
-F1 "CoolingFan.sch" 50
-F2 "5V" I L 8200 3650 50 
-F3 "GND" I L 8200 3800 50 
-F4 "Control" I L 8200 3950 50 
-$EndSheet
-$Sheet
-S 2300 3900 600  400 
-U 60751B36
-F0 "Jetson Power Button and LED" 50
-F1 "JetsonPower.sch" 50
-$EndSheet
-$Sheet
-S 8250 2550 550  550 
-U 60751BEA
-F0 "OpenLog" 50
-F1 "OpenLog.sch" 50
-F2 "3.3V" I L 8250 2650 50 
-F3 "GND" I L 8250 2750 50 
-F4 "TX" O L 8250 2900 50 
-F5 "RX" I L 8250 3000 50 
-$EndSheet
-$Sheet
-S 2250 1650 500  450 
-U 60751D8F
-F0 "Battery and Protection" 50
-F1 "Battery.sch" 50
-F2 "VOut" O R 2750 1800 50 
-F3 "GND" O R 2750 1950 50 
-$EndSheet
-$Sheet
-S 3500 1650 550  450 
-U 60753C1A
-F0 "Power Supply" 50
-F1 "PowerSupply.sch" 50
-F2 "Vin" I L 3500 1800 50 
-F3 "GND" B L 3500 1950 50 
-F4 "5V" O R 4050 1800 50 
-F5 "3.3V" O R 4050 1950 50 
-$EndSheet
-$Sheet
-S 4900 1650 600  500 
-U 60809541
-F0 "Power Monitor" 50
-F1 "PowerMonitor.sch" 50
-F2 "3.3V" I L 4900 1950 50 
-F3 "GND" I L 4900 2050 50 
-F4 "5V" I L 4900 1850 50 
-F5 "VBAT" I L 4900 1750 50 
-F6 "ADC1" I R 5500 1850 50 
-F7 "ADC2" I R 5500 1950 50 
-F8 "ADC3" I R 5500 2050 50 
-$EndSheet
-$Sheet
-S 6150 1650 600  600 
-U 60809B8E
-F0 "Temperature Sensors" 50
-F1 "TempSensors.sch" 50
-F2 "3.3V" I L 6150 1850 50 
-F3 "GND" I L 6150 1950 50 
-$EndSheet
-$Sheet
-S 2300 3000 600  450 
-U 60809C10
-F0 "IMU" 50
-F1 "IMU.sch" 50
-F2 "SDA" I R 2900 3200 50 
-F3 "SCL" I R 2900 3300 50 
-F4 "3.3V" I L 2300 3200 50 
-F5 "GND" I L 2300 3300 50 
-$EndSheet
-$Sheet
-S 1050 1600 650  700 
-U 60809DA2
-F0 "BackupComms" 50
-F1 "BackupComms.sch" 50
-F2 "3.3V" I L 1050 1700 50 
-F3 "GND" I L 1050 1800 50 
-F4 "SCLK" I R 1700 1700 50 
-F5 "MISO" I R 1700 1800 50 
-F6 "MOSI" I R 1700 1900 50 
-F7 "CS" I R 1700 2000 50 
-F8 "RST" I R 1700 2100 50 
-F9 "IRQ" I R 1700 2200 50 
-$EndSheet
-$Sheet
-S 9850 1600 1150 600 
-U 6074EE19
-F0 "Motor and Driver 2" 50
-F1 "Motor.sch" 50
-F2 "GND" I L 9850 1850 50 
-F3 "5V" I L 9850 1750 50 
-F4 "RX" I L 9850 2000 50 
-F5 "TX" O L 9850 2100 50 
-$EndSheet
-Text HLabel 6750 1750 0    50   Input ~ 0
+$Comp
+L Prototype_Library:NVIDIA_Jetson_NX_Dev_40pin_Connector J?
+U 1 1 60FCA535
+P 10000 6100
+F 0 "J?" H 10000 7315 50  0000 C CNN
+F 1 "NVIDIA_Jetson_NX_Dev_40pin_Connector" H 10000 7224 50  0000 C CNN
+F 2 "" H 10000 7250 50  0001 C CNN
+F 3 "" H 10000 7250 50  0001 C CNN
+	1    10000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ASTRA_Library:Teensy_4.1 U?
+U 1 1 60FCBFA5
+P 7050 5950
+F 0 "U?" H 7050 7365 50  0000 C CNN
+F 1 "Teensy_4.1" H 7050 7274 50  0000 C CNN
+F 2 "" H 7050 5950 50  0001 C CNN
+F 3 "" H 7050 5950 50  0001 C CNN
+	1    7050 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Prototype_Library:NVIDIA_Jetson_NX_Dev_Button_Conn J?
+U 1 1 60FCCDCE
+P 10050 9350
+F 0 "J?" H 10478 9646 50  0000 L CNN
+F 1 "NVIDIA_Jetson_NX_Dev_Button_Conn" H 10478 9555 50  0000 L CNN
+F 2 "" H 10050 10300 50  0001 C CNN
+F 3 "" H 10050 10300 50  0001 C CNN
+	1    10050 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60FD50AA
+P 9300 8650
+F 0 "D?" H 9293 8867 50  0000 C CNN
+F 1 "LED" H 9293 8776 50  0000 C CNN
+F 2 "" H 9300 8650 50  0001 C CNN
+F 3 "~" H 9300 8650 50  0001 C CNN
+	1    9300 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 8650 9450 8650
+Wire Wire Line
+	9600 8550 8950 8550
+Wire Wire Line
+	8950 8550 8950 8650
+Wire Wire Line
+	8950 8650 9150 8650
+$Comp
+L power:GND #PWR?
+U 1 1 60FD6378
+P 9450 9800
+F 0 "#PWR?" H 9450 9550 50  0001 C CNN
+F 1 "GND" H 9455 9627 50  0000 C CNN
+F 2 "" H 9450 9800 50  0001 C CNN
+F 3 "" H 9450 9800 50  0001 C CNN
+	1    9450 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 9800 9450 9550
+Wire Wire Line
+	9450 9550 9600 9550
+Wire Wire Line
+	9600 9350 9450 9350
+Wire Wire Line
+	9450 9350 9450 9550
+Connection ~ 9450 9550
+Wire Wire Line
+	9600 9150 9450 9150
+Wire Wire Line
+	9450 9150 9450 9350
+Connection ~ 9450 9350
+$Comp
+L ASTRA_Library:QWIIC_Generic_Conn J?
+U 1 1 60FD8080
+P 14000 4500
+F 0 "J?" H 14178 4246 50  0000 L CNN
+F 1 "QWIIC_Generic_Conn" H 14178 4155 50  0000 L CNN
+F 2 "" H 14000 4500 50  0001 C CNN
+F 3 "" H 14000 4500 50  0001 C CNN
+	1    14000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Prototype_Library:RFM95W_Adafruit_Breakout U?
+U 1 1 60FD876E
+P 1450 2150
+F 0 "U?" H 1425 2815 50  0000 C CNN
+F 1 "RFM95W_Adafruit_Breakout" H 1425 2724 50  0000 C CNN
+F 2 "" H 1450 2150 50  0001 C CNN
+F 3 "" H 1450 2150 50  0001 C CNN
+	1    1450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Antenna AE?
+U 1 1 60FD941A
+P 2150 2350
+AR Path="/60809DA2/60FD941A" Ref="AE?"  Part="1" 
+AR Path="/60FD941A" Ref="AE?"  Part="1" 
+F 0 "AE?" H 2230 2339 50  0000 L CNN
+F 1 "Antenna" H 2230 2248 50  0000 L CNN
+F 2 "" H 2150 2350 50  0001 C CNN
+F 3 "~" H 2150 2350 50  0001 C CNN
+	1    2150 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2550 1900 2550
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 60FDACEB
+P 3550 1750
+AR Path="/60751D8F/60FDACEB" Ref="SW?"  Part="1" 
+AR Path="/60FDACEB" Ref="SW?"  Part="1" 
+F 0 "SW?" H 3550 2035 50  0000 C CNN
+F 1 "SW_SPDT" H 3550 1944 50  0000 C CNN
+F 2 "" H 3550 1750 50  0001 C CNN
+F 3 "~" H 3550 1750 50  0001 C CNN
+	1    3550 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery BT?
+U 1 1 60FDACF1
+P 4300 1850
+AR Path="/60751D8F/60FDACF1" Ref="BT?"  Part="1" 
+AR Path="/60FDACF1" Ref="BT?"  Part="1" 
+F 0 "BT?" H 4408 1896 50  0000 L CNN
+F 1 "Battery" H 4408 1805 50  0000 L CNN
+F 2 "" V 4300 1910 50  0001 C CNN
+F 3 "~" V 4300 1910 50  0001 C CNN
+	1    4300 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 1750 3350 1750
+NoConn ~ 3750 1850
+Wire Wire Line
+	3150 2050 4300 2050
+Wire Wire Line
+	3750 1650 4300 1650
+Text Notes 5450 1150 0    50   ~ 0
+Power Supply
+Text Notes 3450 1150 0    50   ~ 0
+Battery and Switch
+Text Notes 1100 1150 0    50   ~ 0
+Backup Comms
+Text Notes 6900 1150 0    50   ~ 0
+Power Monitor
+$Comp
+L Sensor_Temperature:MCP9700T-HTT U?
+U 1 1 60FDE0EC
+P 9150 2000
+AR Path="/60809B8E/60FDE0EC" Ref="U?"  Part="1" 
+AR Path="/60FDE0EC" Ref="U?"  Part="1" 
+F 0 "U?" H 8820 2046 50  0000 R CNN
+F 1 "MCP9700T-HTT" H 8820 1955 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9150 1600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf" H 9000 2250 50  0001 C CNN
+	1    9150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Temperature:MCP9700T-HTT U?
+U 1 1 60FDE0F2
+P 10050 2000
+AR Path="/60809B8E/60FDE0F2" Ref="U?"  Part="1" 
+AR Path="/60FDE0F2" Ref="U?"  Part="1" 
+F 0 "U?" H 9720 2046 50  0000 R CNN
+F 1 "MCP9700T-HTT" H 9720 1955 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10050 1600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf" H 9900 2250 50  0001 C CNN
+	1    10050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Temperature:MCP9700T-HTT U?
+U 1 1 60FDE0F8
+P 10950 2000
+AR Path="/60809B8E/60FDE0F8" Ref="U?"  Part="1" 
+AR Path="/60FDE0F8" Ref="U?"  Part="1" 
+F 0 "U?" H 10620 2046 50  0000 R CNN
+F 1 "MCP9700T-HTT" H 10620 1955 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10950 1600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf" H 10800 2250 50  0001 C CNN
+	1    10950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Temperature:MCP9700T-HTT U?
+U 1 1 60FDE0FE
+P 11850 2000
+AR Path="/60809B8E/60FDE0FE" Ref="U?"  Part="1" 
+AR Path="/60FDE0FE" Ref="U?"  Part="1" 
+F 0 "U?" H 11520 2046 50  0000 R CNN
+F 1 "MCP9700T-HTT" H 11520 1955 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 11850 1600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf" H 11700 2250 50  0001 C CNN
+	1    11850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Temperature:MCP9700T-HTT U?
+U 1 1 60FDE104
+P 12750 2000
+AR Path="/60809B8E/60FDE104" Ref="U?"  Part="1" 
+AR Path="/60FDE104" Ref="U?"  Part="1" 
+F 0 "U?" H 12420 2046 50  0000 R CNN
+F 1 "MCP9700T-HTT" H 12420 1955 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 12750 1600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf" H 12600 2250 50  0001 C CNN
+	1    12750 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 2000 9550 2400
+Wire Wire Line
+	9550 2400 9500 2400
+Wire Wire Line
+	10450 2000 10450 2400
+Wire Wire Line
+	10450 2400 10400 2400
+Wire Wire Line
+	11350 2000 11350 2400
+Wire Wire Line
+	11350 2400 11300 2400
+Wire Wire Line
+	12250 2000 12250 2400
+Wire Wire Line
+	12250 2400 12200 2400
+Wire Wire Line
+	13150 2000 13150 2400
+Wire Wire Line
+	13150 2400 13100 2400
+Wire Wire Line
+	8800 1600 9150 1600
+Wire Wire Line
+	12750 1600 12750 1700
+Wire Wire Line
+	11850 1700 11850 1600
+Connection ~ 11850 1600
+Wire Wire Line
+	11850 1600 12750 1600
+Wire Wire Line
+	10950 1700 10950 1600
+Connection ~ 10950 1600
+Wire Wire Line
+	10950 1600 11850 1600
+Wire Wire Line
+	10050 1700 10050 1600
+Connection ~ 10050 1600
+Wire Wire Line
+	10050 1600 10950 1600
+Wire Wire Line
+	9150 1700 9150 1600
+Connection ~ 9150 1600
+Wire Wire Line
+	9150 1600 10050 1600
+Wire Wire Line
+	9050 2500 9150 2500
+Wire Wire Line
+	12750 2500 12750 2300
+Wire Wire Line
+	11850 2300 11850 2500
+Connection ~ 11850 2500
+Wire Wire Line
+	11850 2500 12750 2500
+Wire Wire Line
+	10950 2300 10950 2500
+Connection ~ 10950 2500
+Wire Wire Line
+	10950 2500 11850 2500
+Wire Wire Line
+	10050 2300 10050 2500
+Connection ~ 10050 2500
+Wire Wire Line
+	10050 2500 10950 2500
+Wire Wire Line
+	9150 2300 9150 2500
+Connection ~ 9150 2500
+Wire Wire Line
+	9150 2500 10050 2500
+$Comp
+L power:+BATT #PWR?
+U 1 1 60FDF0DD
+P 3150 1750
+F 0 "#PWR?" H 3150 1600 50  0001 C CNN
+F 1 "+BATT" H 3165 1923 50  0000 C CNN
+F 2 "" H 3150 1750 50  0001 C CNN
+F 3 "" H 3150 1750 50  0001 C CNN
+	1    3150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60FDF640
+P 3150 2050
+F 0 "#PWR?" H 3150 1800 50  0001 C CNN
+F 1 "GND" H 3155 1877 50  0000 C CNN
+F 2 "" H 3150 2050 50  0001 C CNN
+F 3 "" H 3150 2050 50  0001 C CNN
+	1    3150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60FDF8F1
+P 9050 2500
+F 0 "#PWR?" H 9050 2250 50  0001 C CNN
+F 1 "GND" H 9055 2327 50  0000 C CNN
+F 2 "" H 9050 2500 50  0001 C CNN
+F 3 "" H 9050 2500 50  0001 C CNN
+	1    9050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60FDFCA6
+P 8800 1600
+F 0 "#PWR?" H 8800 1450 50  0001 C CNN
+F 1 "+3.3V" H 8815 1773 50  0000 C CNN
+F 2 "" H 8800 1600 50  0001 C CNN
+F 3 "" H 8800 1600 50  0001 C CNN
+	1    8800 1600
+	1    0    0    -1  
+$EndComp
+Text Label 9500 2400 2    50   ~ 0
 ADC1
-Text HLabel 6750 1850 0    50   Input ~ 0
+Text Label 10400 2400 2    50   ~ 0
 ADC2
-Text HLabel 6750 1950 0    50   Input ~ 0
+Text Label 11300 2400 2    50   ~ 0
 ADC3
-Text HLabel 6750 2050 0    50   Input ~ 0
+Text Label 12200 2400 2    50   ~ 0
 ADC4
-Text HLabel 6750 2150 0    50   Input ~ 0
+Text Label 13100 2400 2    50   ~ 0
 ADC5
+Text Notes 10600 1150 0    50   ~ 0
+Temperature Sensors
+Text Label 6600 6300 2    50   ~ 0
+ADC1
+Text Label 6600 6400 2    50   ~ 0
+ADC2
+Text Label 6600 6500 2    50   ~ 0
+ADC3
+Text Label 6600 6600 2    50   ~ 0
+ADC4
+Text Label 7500 6300 0    50   ~ 0
+ADC5
+$Comp
+L Motor:Fan_3pin M?
+U 1 1 60FED387
+P 19900 9650
+F 0 "M?" H 20058 9646 50  0000 L CNN
+F 1 "Fan_3pin" H 20058 9555 50  0000 L CNN
+F 2 "" H 19900 9560 50  0001 C CNN
+F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 19900 9560 50  0001 C CNN
+	1    19900 9650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 19600 9650
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 60FF1F2E
+P 19800 10300
+F 0 "Q?" H 20004 10346 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 20004 10255 50  0000 L CNN
+F 2 "" H 20000 10400 50  0001 C CNN
+F 3 "~" H 19800 10300 50  0001 C CNN
+	1    19800 10300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19900 9950 19900 10100
+$Comp
+L power:+12V #PWR?
+U 1 1 60FF4DC9
+P 19900 9300
+F 0 "#PWR?" H 19900 9150 50  0001 C CNN
+F 1 "+12V" H 19915 9473 50  0000 C CNN
+F 2 "" H 19900 9300 50  0001 C CNN
+F 3 "" H 19900 9300 50  0001 C CNN
+	1    19900 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19900 9300 19900 9450
+$Comp
+L power:GND #PWR?
+U 1 1 60FF6057
+P 19900 10650
+F 0 "#PWR?" H 19900 10400 50  0001 C CNN
+F 1 "GND" H 19905 10477 50  0000 C CNN
+F 2 "" H 19900 10650 50  0001 C CNN
+F 3 "" H 19900 10650 50  0001 C CNN
+	1    19900 10650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19900 10650 19900 10600
+Wire Wire Line
+	19600 10300 19450 10300
+$Comp
+L Device:R_Small R?
+U 1 1 60FF7E57
+P 19450 10450
+F 0 "R?" H 19509 10496 50  0000 L CNN
+F 1 "10k" H 19509 10405 50  0000 L CNN
+F 2 "" H 19450 10450 50  0001 C CNN
+F 3 "~" H 19450 10450 50  0001 C CNN
+	1    19450 10450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19450 10350 19450 10300
+Connection ~ 19450 10300
+Wire Wire Line
+	19450 10300 19250 10300
+Wire Wire Line
+	19450 10550 19450 10600
+Wire Wire Line
+	19450 10600 19900 10600
+Connection ~ 19900 10600
+Wire Wire Line
+	19900 10600 19900 10500
+Text Label 19250 10300 2    50   ~ 0
+Fan1_Control
+$Comp
+L Motor:Fan_3pin M?
+U 1 1 61001677
+P 19900 11550
+F 0 "M?" H 20058 11546 50  0000 L CNN
+F 1 "Fan_3pin" H 20058 11455 50  0000 L CNN
+F 2 "" H 19900 11460 50  0001 C CNN
+F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 19900 11460 50  0001 C CNN
+	1    19900 11550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 19600 11550
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 6100167E
+P 19800 12200
+F 0 "Q?" H 20004 12246 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 20004 12155 50  0000 L CNN
+F 2 "" H 20000 12300 50  0001 C CNN
+F 3 "~" H 19800 12200 50  0001 C CNN
+	1    19800 12200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19900 11850 19900 12000
+$Comp
+L power:+12V #PWR?
+U 1 1 61001685
+P 19900 11200
+F 0 "#PWR?" H 19900 11050 50  0001 C CNN
+F 1 "+12V" H 19915 11373 50  0000 C CNN
+F 2 "" H 19900 11200 50  0001 C CNN
+F 3 "" H 19900 11200 50  0001 C CNN
+	1    19900 11200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19900 11200 19900 11350
+$Comp
+L power:GND #PWR?
+U 1 1 6100168C
+P 19900 12550
+F 0 "#PWR?" H 19900 12300 50  0001 C CNN
+F 1 "GND" H 19905 12377 50  0000 C CNN
+F 2 "" H 19900 12550 50  0001 C CNN
+F 3 "" H 19900 12550 50  0001 C CNN
+	1    19900 12550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19900 12550 19900 12500
+Wire Wire Line
+	19600 12200 19450 12200
+$Comp
+L Device:R_Small R?
+U 1 1 61001694
+P 19450 12350
+F 0 "R?" H 19509 12396 50  0000 L CNN
+F 1 "10k" H 19509 12305 50  0000 L CNN
+F 2 "" H 19450 12350 50  0001 C CNN
+F 3 "~" H 19450 12350 50  0001 C CNN
+	1    19450 12350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19450 12250 19450 12200
+Connection ~ 19450 12200
+Wire Wire Line
+	19450 12200 19250 12200
+Wire Wire Line
+	19450 12450 19450 12500
+Wire Wire Line
+	19450 12500 19900 12500
+Connection ~ 19900 12500
+Wire Wire Line
+	19900 12500 19900 12400
+Text Label 19250 12200 2    50   ~ 0
+Fan2_Control
+$Comp
+L Motor:Fan_3pin M?
+U 1 1 610027F9
+P 19900 13450
+F 0 "M?" H 20058 13446 50  0000 L CNN
+F 1 "Fan_3pin" H 20058 13355 50  0000 L CNN
+F 2 "" H 19900 13360 50  0001 C CNN
+F 3 "http://www.hardwarecanucks.com/forum/attachments/new-builds/16287d1330775095-help-chassis-power-fan-connectors-motherboard-asus_p8z68.jpg" H 19900 13360 50  0001 C CNN
+	1    19900 13450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 19600 13450
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 61002800
+P 19800 14100
+F 0 "Q?" H 20004 14146 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 20004 14055 50  0000 L CNN
+F 2 "" H 20000 14200 50  0001 C CNN
+F 3 "~" H 19800 14100 50  0001 C CNN
+	1    19800 14100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19900 13750 19900 13900
+$Comp
+L power:+12V #PWR?
+U 1 1 61002807
+P 19900 13100
+F 0 "#PWR?" H 19900 12950 50  0001 C CNN
+F 1 "+12V" H 19915 13273 50  0000 C CNN
+F 2 "" H 19900 13100 50  0001 C CNN
+F 3 "" H 19900 13100 50  0001 C CNN
+	1    19900 13100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19900 13100 19900 13250
+$Comp
+L power:GND #PWR?
+U 1 1 6100280E
+P 19900 14450
+F 0 "#PWR?" H 19900 14200 50  0001 C CNN
+F 1 "GND" H 19905 14277 50  0000 C CNN
+F 2 "" H 19900 14450 50  0001 C CNN
+F 3 "" H 19900 14450 50  0001 C CNN
+	1    19900 14450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19900 14450 19900 14400
+Wire Wire Line
+	19600 14100 19450 14100
+$Comp
+L Device:R_Small R?
+U 1 1 61002816
+P 19450 14250
+F 0 "R?" H 19509 14296 50  0000 L CNN
+F 1 "10k" H 19509 14205 50  0000 L CNN
+F 2 "" H 19450 14250 50  0001 C CNN
+F 3 "~" H 19450 14250 50  0001 C CNN
+	1    19450 14250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19450 14150 19450 14100
+Connection ~ 19450 14100
+Wire Wire Line
+	19450 14100 19250 14100
+Wire Wire Line
+	19450 14350 19450 14400
+Wire Wire Line
+	19450 14400 19900 14400
+Connection ~ 19900 14400
+Wire Wire Line
+	19900 14400 19900 14300
+Text Label 19250 14100 2    50   ~ 0
+Fan3_Control
+$Comp
+L Prototype_Library:Sparkfun_OpenLog U?
+U 1 1 6100C73E
+P 16350 6400
+F 0 "U?" H 16528 6451 50  0000 L CNN
+F 1 "Sparkfun_OpenLog" H 16528 6360 50  0000 L CNN
+F 2 "" H 16350 6400 50  0001 C CNN
+F 3 "" H 16350 6400 50  0001 C CNN
+	1    16350 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ASTRA_Library:Adafruit_GPS_V3 U?
+U 1 1 610109FB
+P 16250 4800
+F 0 "U?" H 16528 4746 50  0000 L CNN
+F 1 "Adafruit_GPS_V3" H 16528 4655 50  0000 L CNN
+F 2 "" H 16250 4800 50  0001 C CNN
+F 3 "" H 16250 4800 50  0001 C CNN
+	1    16250 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61015F8D
+P 16550 2150
+AR Path="/607506EB/61015F8D" Ref="C?"  Part="1" 
+AR Path="/61015F8D" Ref="C?"  Part="1" 
+F 0 "C?" H 16642 2196 50  0000 L CNN
+F 1 "C_Small" H 16642 2105 50  0000 L CNN
+F 2 "" H 16550 2150 50  0001 C CNN
+F 3 "~" H 16550 2150 50  0001 C CNN
+	1    16550 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16250 2000 16550 2000
+Wire Wire Line
+	16550 2000 16550 2050
+Wire Wire Line
+	16550 2250 16550 2300
+Wire Wire Line
+	16550 2300 16250 2300
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 61015F97
+P 17300 2100
+AR Path="/607506EB/61015F97" Ref="J?"  Part="1" 
+AR Path="/61015F97" Ref="J?"  Part="1" 
+F 0 "J?" H 17380 2142 50  0000 L CNN
+F 1 "Conn_01x03" H 17380 2051 50  0000 L CNN
+F 2 "" H 17300 2100 50  0001 C CNN
+F 3 "~" H 17300 2100 50  0001 C CNN
+	1    17300 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17100 2000 16550 2000
+Connection ~ 16550 2000
+Wire Wire Line
+	17100 2100 16850 2100
+Wire Wire Line
+	16850 2100 16850 2300
+Wire Wire Line
+	16850 2300 16550 2300
+Connection ~ 16550 2300
+Wire Wire Line
+	17100 2200 17050 2200
+Wire Wire Line
+	16300 3100 16150 3100
+Wire Wire Line
+	17050 2200 17050 3100
+Wire Wire Line
+	16850 2700 16850 2750
+$Comp
+L power:+5V #PWR?
+U 1 1 61015FA7
+P 16850 2700
+AR Path="/607506EB/61015FA7" Ref="#PWR?"  Part="1" 
+AR Path="/61015FA7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 16850 2550 50  0001 C CNN
+F 1 "+5V" H 16865 2873 50  0000 C CNN
+F 2 "" H 16850 2700 50  0001 C CNN
+F 3 "" H 16850 2700 50  0001 C CNN
+	1    16850 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16850 3050 16850 3100
+Wire Wire Line
+	16850 3100 16700 3100
+Connection ~ 16850 3100
+Wire Wire Line
+	17050 3100 16850 3100
+$Comp
+L Device:R R?
+U 1 1 61015FB1
+P 16850 2900
+AR Path="/607506EB/61015FB1" Ref="R?"  Part="1" 
+AR Path="/61015FB1" Ref="R?"  Part="1" 
+F 0 "R?" H 16920 2946 50  0000 L CNN
+F 1 "1k" H 16920 2855 50  0000 L CNN
+F 2 "" V 16780 2900 50  0001 C CNN
+F 3 "~" H 16850 2900 50  0001 C CNN
+	1    16850 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16500 2700 16500 2800
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61015FB8
+P 16500 2700
+AR Path="/607506EB/61015FB8" Ref="#PWR?"  Part="1" 
+AR Path="/61015FB8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 16500 2550 50  0001 C CNN
+F 1 "+3.3V" H 16515 2873 50  0000 C CNN
+F 2 "" H 16500 2700 50  0001 C CNN
+F 3 "" H 16500 2700 50  0001 C CNN
+	1    16500 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 61015FBE
+P 16500 3000
+AR Path="/607506EB/61015FBE" Ref="Q?"  Part="1" 
+AR Path="/61015FBE" Ref="Q?"  Part="1" 
+F 0 "Q?" V 16751 3000 50  0000 C CNN
+F 1 "Q_NMOS_DGS" V 16842 3000 50  0000 C CNN
+F 2 "" H 16700 3100 50  0001 C CNN
+F 3 "~" H 16500 3000 50  0001 C CNN
+	1    16500 3000
+	0    1    1    0   
+$EndComp
+Text Label 16150 3100 2    50   ~ 0
+ARGB_Data
+$Comp
+L power:+5V #PWR?
+U 1 1 6101845F
+P 16250 2000
+F 0 "#PWR?" H 16250 1850 50  0001 C CNN
+F 1 "+5V" H 16265 2173 50  0000 C CNN
+F 2 "" H 16250 2000 50  0001 C CNN
+F 3 "" H 16250 2000 50  0001 C CNN
+	1    16250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61018D31
+P 16250 2300
+F 0 "#PWR?" H 16250 2050 50  0001 C CNN
+F 1 "GND" H 16255 2127 50  0000 C CNN
+F 2 "" H 16250 2300 50  0001 C CNN
+F 3 "" H 16250 2300 50  0001 C CNN
+	1    16250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ASTRA_Library:FSESC_6.6_COMM J?
+U 1 1 61028606
+P 19850 2350
+F 0 "J?" H 20178 2396 50  0000 L CNN
+F 1 "FSESC_6.6_COMM" H 20178 2305 50  0000 L CNN
+F 2 "" H 19850 2800 50  0001 C CNN
+F 3 "" H 19850 2800 50  0001 C CNN
+	1    19850 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61028D38
+P 19300 1950
+F 0 "#PWR?" H 19300 1800 50  0001 C CNN
+F 1 "+5V" H 19315 2123 50  0000 C CNN
+F 2 "" H 19300 1950 50  0001 C CNN
+F 3 "" H 19300 1950 50  0001 C CNN
+	1    19300 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19600 2000 19300 2000
+Wire Wire Line
+	19300 2000 19300 1950
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6102B280
+P 19050 2100
+AR Path="/607506EB/6102B280" Ref="#PWR?"  Part="1" 
+AR Path="/6102B280" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 19050 1950 50  0001 C CNN
+F 1 "+3.3V" H 19065 2273 50  0000 C CNN
+F 2 "" H 19050 2100 50  0001 C CNN
+F 3 "" H 19050 2100 50  0001 C CNN
+	1    19050 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19050 2100 19600 2100
+$Comp
+L power:GND #PWR?
+U 1 1 6102D8AE
+P 19050 2200
+F 0 "#PWR?" H 19050 1950 50  0001 C CNN
+F 1 "GND" H 19055 2027 50  0000 C CNN
+F 2 "" H 19050 2200 50  0001 C CNN
+F 3 "" H 19050 2200 50  0001 C CNN
+	1    19050 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19600 2200 19050 2200
+Text Label 19600 2400 2    50   ~ 0
+M1_RX
+Text Label 19600 2500 2    50   ~ 0
+M1_TX
+$Comp
+L ASTRA_Library:FSESC_6.6_COMM J?
+U 1 1 61033FA3
+P 19850 3450
+F 0 "J?" H 20178 3496 50  0000 L CNN
+F 1 "FSESC_6.6_COMM" H 20178 3405 50  0000 L CNN
+F 2 "" H 19850 3900 50  0001 C CNN
+F 3 "" H 19850 3900 50  0001 C CNN
+	1    19850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61033FA9
+P 19300 3050
+F 0 "#PWR?" H 19300 2900 50  0001 C CNN
+F 1 "+5V" H 19315 3223 50  0000 C CNN
+F 2 "" H 19300 3050 50  0001 C CNN
+F 3 "" H 19300 3050 50  0001 C CNN
+	1    19300 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19600 3100 19300 3100
+Wire Wire Line
+	19300 3100 19300 3050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61033FB1
+P 19050 3200
+AR Path="/607506EB/61033FB1" Ref="#PWR?"  Part="1" 
+AR Path="/61033FB1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 19050 3050 50  0001 C CNN
+F 1 "+3.3V" H 19065 3373 50  0000 C CNN
+F 2 "" H 19050 3200 50  0001 C CNN
+F 3 "" H 19050 3200 50  0001 C CNN
+	1    19050 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19050 3200 19600 3200
+$Comp
+L power:GND #PWR?
+U 1 1 61033FB8
+P 19050 3300
+F 0 "#PWR?" H 19050 3050 50  0001 C CNN
+F 1 "GND" H 19055 3127 50  0000 C CNN
+F 2 "" H 19050 3300 50  0001 C CNN
+F 3 "" H 19050 3300 50  0001 C CNN
+	1    19050 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19600 3300 19050 3300
+Text Label 19600 3500 2    50   ~ 0
+M2_RX
+Text Label 19600 3600 2    50   ~ 0
+M2_TX
+$Comp
+L ASTRA_Library:FSESC_6.6_COMM J?
+U 1 1 61036175
+P 19850 4550
+F 0 "J?" H 20178 4596 50  0000 L CNN
+F 1 "FSESC_6.6_COMM" H 20178 4505 50  0000 L CNN
+F 2 "" H 19850 5000 50  0001 C CNN
+F 3 "" H 19850 5000 50  0001 C CNN
+	1    19850 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6103617B
+P 19300 4150
+F 0 "#PWR?" H 19300 4000 50  0001 C CNN
+F 1 "+5V" H 19315 4323 50  0000 C CNN
+F 2 "" H 19300 4150 50  0001 C CNN
+F 3 "" H 19300 4150 50  0001 C CNN
+	1    19300 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19600 4200 19300 4200
+Wire Wire Line
+	19300 4200 19300 4150
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61036183
+P 19050 4300
+AR Path="/607506EB/61036183" Ref="#PWR?"  Part="1" 
+AR Path="/61036183" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 19050 4150 50  0001 C CNN
+F 1 "+3.3V" H 19065 4473 50  0000 C CNN
+F 2 "" H 19050 4300 50  0001 C CNN
+F 3 "" H 19050 4300 50  0001 C CNN
+	1    19050 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19050 4300 19600 4300
+$Comp
+L power:GND #PWR?
+U 1 1 6103618A
+P 19050 4400
+F 0 "#PWR?" H 19050 4150 50  0001 C CNN
+F 1 "GND" H 19055 4227 50  0000 C CNN
+F 2 "" H 19050 4400 50  0001 C CNN
+F 3 "" H 19050 4400 50  0001 C CNN
+	1    19050 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19600 4400 19050 4400
+Text Label 19600 4600 2    50   ~ 0
+M3_RX
+Text Label 19600 4700 2    50   ~ 0
+M3_TX
+$Comp
+L ASTRA_Library:FSESC_6.6_COMM J?
+U 1 1 61038C29
+P 19850 5650
+F 0 "J?" H 20178 5696 50  0000 L CNN
+F 1 "FSESC_6.6_COMM" H 20178 5605 50  0000 L CNN
+F 2 "" H 19850 6100 50  0001 C CNN
+F 3 "" H 19850 6100 50  0001 C CNN
+	1    19850 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61038C2F
+P 19300 5250
+F 0 "#PWR?" H 19300 5100 50  0001 C CNN
+F 1 "+5V" H 19315 5423 50  0000 C CNN
+F 2 "" H 19300 5250 50  0001 C CNN
+F 3 "" H 19300 5250 50  0001 C CNN
+	1    19300 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19600 5300 19300 5300
+Wire Wire Line
+	19300 5300 19300 5250
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61038C37
+P 19050 5400
+AR Path="/607506EB/61038C37" Ref="#PWR?"  Part="1" 
+AR Path="/61038C37" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 19050 5250 50  0001 C CNN
+F 1 "+3.3V" H 19065 5573 50  0000 C CNN
+F 2 "" H 19050 5400 50  0001 C CNN
+F 3 "" H 19050 5400 50  0001 C CNN
+	1    19050 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19050 5400 19600 5400
+$Comp
+L power:GND #PWR?
+U 1 1 61038C3E
+P 19050 5500
+F 0 "#PWR?" H 19050 5250 50  0001 C CNN
+F 1 "GND" H 19055 5327 50  0000 C CNN
+F 2 "" H 19050 5500 50  0001 C CNN
+F 3 "" H 19050 5500 50  0001 C CNN
+	1    19050 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19600 5500 19050 5500
+Text Label 19600 5700 2    50   ~ 0
+M4_RX
+Text Label 19600 5800 2    50   ~ 0
+M4_TX
+$Comp
+L ASTRA_Library:FSESC_6.6_COMM J?
+U 1 1 6103B603
+P 19850 6750
+F 0 "J?" H 20178 6796 50  0000 L CNN
+F 1 "FSESC_6.6_COMM" H 20178 6705 50  0000 L CNN
+F 2 "" H 19850 7200 50  0001 C CNN
+F 3 "" H 19850 7200 50  0001 C CNN
+	1    19850 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6103B609
+P 19300 6350
+F 0 "#PWR?" H 19300 6200 50  0001 C CNN
+F 1 "+5V" H 19315 6523 50  0000 C CNN
+F 2 "" H 19300 6350 50  0001 C CNN
+F 3 "" H 19300 6350 50  0001 C CNN
+	1    19300 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19600 6400 19300 6400
+Wire Wire Line
+	19300 6400 19300 6350
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6103B611
+P 19050 6500
+AR Path="/607506EB/6103B611" Ref="#PWR?"  Part="1" 
+AR Path="/6103B611" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 19050 6350 50  0001 C CNN
+F 1 "+3.3V" H 19065 6673 50  0000 C CNN
+F 2 "" H 19050 6500 50  0001 C CNN
+F 3 "" H 19050 6500 50  0001 C CNN
+	1    19050 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19050 6500 19600 6500
+$Comp
+L power:GND #PWR?
+U 1 1 6103B618
+P 19050 6600
+F 0 "#PWR?" H 19050 6350 50  0001 C CNN
+F 1 "GND" H 19055 6427 50  0000 C CNN
+F 2 "" H 19050 6600 50  0001 C CNN
+F 3 "" H 19050 6600 50  0001 C CNN
+	1    19050 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19600 6600 19050 6600
+Text Label 19600 6800 2    50   ~ 0
+M5_RX
+Text Label 19600 6900 2    50   ~ 0
+M5_TX
+$Comp
+L ASTRA_Library:FSESC_6.6_COMM J?
+U 1 1 6103EC05
+P 19850 7850
+F 0 "J?" H 20178 7896 50  0000 L CNN
+F 1 "FSESC_6.6_COMM" H 20178 7805 50  0000 L CNN
+F 2 "" H 19850 8300 50  0001 C CNN
+F 3 "" H 19850 8300 50  0001 C CNN
+	1    19850 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6103EC0B
+P 19300 7450
+F 0 "#PWR?" H 19300 7300 50  0001 C CNN
+F 1 "+5V" H 19315 7623 50  0000 C CNN
+F 2 "" H 19300 7450 50  0001 C CNN
+F 3 "" H 19300 7450 50  0001 C CNN
+	1    19300 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19600 7500 19300 7500
+Wire Wire Line
+	19300 7500 19300 7450
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6103EC13
+P 19050 7600
+AR Path="/607506EB/6103EC13" Ref="#PWR?"  Part="1" 
+AR Path="/6103EC13" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 19050 7450 50  0001 C CNN
+F 1 "+3.3V" H 19065 7773 50  0000 C CNN
+F 2 "" H 19050 7600 50  0001 C CNN
+F 3 "" H 19050 7600 50  0001 C CNN
+	1    19050 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19050 7600 19600 7600
+$Comp
+L power:GND #PWR?
+U 1 1 6103EC1A
+P 19050 7700
+F 0 "#PWR?" H 19050 7450 50  0001 C CNN
+F 1 "GND" H 19055 7527 50  0000 C CNN
+F 2 "" H 19050 7700 50  0001 C CNN
+F 3 "" H 19050 7700 50  0001 C CNN
+	1    19050 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19600 7700 19050 7700
+Text Label 19600 7900 2    50   ~ 0
+M6_RX
+Text Label 19600 8000 2    50   ~ 0
+M6_TX
+NoConn ~ 19600 8200
+NoConn ~ 19600 8100
+NoConn ~ 19600 7800
+NoConn ~ 19600 7100
+NoConn ~ 19600 7000
+NoConn ~ 19600 6700
+NoConn ~ 19600 6000
+NoConn ~ 19600 5900
+NoConn ~ 19600 5600
+NoConn ~ 19600 4900
+NoConn ~ 19600 4800
+NoConn ~ 19600 4500
+NoConn ~ 19600 3800
+NoConn ~ 19600 3700
+NoConn ~ 19600 3400
+NoConn ~ 19600 2700
+NoConn ~ 19600 2600
+NoConn ~ 19600 2300
+Text Notes 16500 1400 0    50   ~ 0
+ARGB Control
+Text Notes 19450 1400 0    50   ~ 0
+Motor Driver Connectors
+Text Notes 16250 4200 0    50   ~ 0
+GPS
+Text Notes 13900 4200 0    50   ~ 0
+IMU
+Text Notes 16200 5850 0    50   ~ 0
+OpenLog
+Text Notes 19750 8800 0    50   ~ 0
+Cooling Fans
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 6109D783
+P 10050 10750
+F 0 "J?" H 10130 10742 50  0000 L CNN
+F 1 "Conn_01x02" H 10130 10651 50  0000 L CNN
+F 2 "" H 10050 10750 50  0001 C CNN
+F 3 "~" H 10050 10750 50  0001 C CNN
+	1    10050 10750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6109E0EC
+P 9700 10850
+F 0 "#PWR?" H 9700 10600 50  0001 C CNN
+F 1 "GND" H 9705 10677 50  0000 C CNN
+F 2 "" H 9700 10850 50  0001 C CNN
+F 3 "" H 9700 10850 50  0001 C CNN
+	1    9700 10850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 10850 9700 10850
+$Comp
+L power:+12V #PWR?
+U 1 1 610A199D
+P 9700 10750
+F 0 "#PWR?" H 9700 10600 50  0001 C CNN
+F 1 "+12V" H 9715 10923 50  0000 C CNN
+F 2 "" H 9700 10750 50  0001 C CNN
+F 3 "" H 9700 10750 50  0001 C CNN
+	1    9700 10750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 10750 9700 10750
+Text Notes 9750 10400 0    50   ~ 0
+Jetson Power Supply
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 610A5F05
+P 8150 9450
+F 0 "Q?" H 8354 9496 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 8354 9405 50  0000 L CNN
+F 2 "" H 8350 9550 50  0001 C CNN
+F 3 "~" H 8150 9450 50  0001 C CNN
+	1    8150 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_DGS Q?
+U 1 1 610A7543
+P 8650 9950
+F 0 "Q?" H 8854 9996 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 8854 9905 50  0000 L CNN
+F 2 "" H 8850 10050 50  0001 C CNN
+F 3 "~" H 8650 9950 50  0001 C CNN
+	1    8650 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 9650 8750 9750
+Wire Wire Line
+	8750 9650 9600 9650
+Wire Wire Line
+	8250 9250 9600 9250
+Text Label 7750 9450 2    50   ~ 0
+JETSON_RESET
+Text Label 8100 9950 2    50   ~ 0
+JETSON_SLEEP
+$Comp
+L power:GND #PWR?
+U 1 1 610B09D4
+P 8750 10150
+F 0 "#PWR?" H 8750 9900 50  0001 C CNN
+F 1 "GND" H 8755 9977 50  0000 C CNN
+F 2 "" H 8750 10150 50  0001 C CNN
+F 3 "" H 8750 10150 50  0001 C CNN
+	1    8750 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 610B0D66
+P 8250 9650
+F 0 "#PWR?" H 8250 9400 50  0001 C CNN
+F 1 "GND" H 8255 9477 50  0000 C CNN
+F 2 "" H 8250 9650 50  0001 C CNN
+F 3 "" H 8250 9650 50  0001 C CNN
+	1    8250 9650
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 9650
+$Comp
+L Device:R_Small R?
+U 1 1 610B88F9
+P 7850 9550
+F 0 "R?" H 7909 9596 50  0000 L CNN
+F 1 "10k" H 7909 9505 50  0000 L CNN
+F 2 "" H 7850 9550 50  0001 C CNN
+F 3 "~" H 7850 9550 50  0001 C CNN
+	1    7850 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 9450 7850 9450
+Connection ~ 7850 9450
+Wire Wire Line
+	7850 9450 7750 9450
+Wire Wire Line
+	7850 9650 8250 9650
+$Comp
+L Device:R_Small R?
+U 1 1 610C16BC
+P 8300 10050
+F 0 "R?" H 8359 10096 50  0000 L CNN
+F 1 "10k" H 8359 10005 50  0000 L CNN
+F 2 "" H 8300 10050 50  0001 C CNN
+F 3 "~" H 8300 10050 50  0001 C CNN
+	1    8300 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 10150 8300 10150
+Wire Wire Line
+	8450 9950 8300 9950
+Connection ~ 8300 9950
+Wire Wire Line
+	8300 9950 8100 9950
+Connection ~ 8750 10150
 $EndSCHEMATC
