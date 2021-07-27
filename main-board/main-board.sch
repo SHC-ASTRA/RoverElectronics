@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:main-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -156,8 +157,6 @@ $EndComp
 Wire Wire Line
 	3150 1750 3350 1750
 NoConn ~ 3750 1850
-Wire Wire Line
-	3150 2050 4300 2050
 Wire Wire Line
 	3750 1650 4300 1650
 Text Notes 5450 1150 0    50   ~ 0
@@ -357,9 +356,9 @@ Text Label 13100 2400 2    50   ~ 0
 ADC5
 Text Notes 10600 1150 0    50   ~ 0
 Temperature Sensors
-Text Label 6600 6300 2    50   ~ 0
+Text Label 7500 5600 0    50   ~ 0
 ADC1
-Text Label 6600 6400 2    50   ~ 0
+Text Label 7500 5500 0    50   ~ 0
 ADC2
 Text Label 6600 6500 2    50   ~ 0
 ADC3
@@ -1269,4 +1268,223 @@ Connection ~ 8300 9950
 Wire Wire Line
 	8300 9950 8100 9950
 Connection ~ 8750 10150
+Wire Wire Line
+	3150 2050 4300 2050
+Text Label 6600 4900 2    50   ~ 0
+M1_RX
+Text Label 6600 5000 2    50   ~ 0
+M1_TX
+Text Label 6600 5600 2    50   ~ 0
+M2_RX
+Text Label 6600 5700 2    50   ~ 0
+M2_TX
+Text Label 7500 6000 0    50   ~ 0
+M3_TX
+Text Label 7500 5900 0    50   ~ 0
+M3_RX
+Text Label 6600 6700 2    50   ~ 0
+M5_RX
+Text Label 6600 6800 2    50   ~ 0
+M5_TX
+Text Label 7500 5400 0    50   ~ 0
+M4_TX
+Text Label 7500 5300 0    50   ~ 0
+M4_RX
+Text Label 7500 7000 0    50   ~ 0
+M6_RX
+Text Label 7500 6900 0    50   ~ 0
+M6_TX
+Text Label 6600 5100 2    50   ~ 0
+ARGB_Data
+Text Label 6600 5400 2    50   ~ 0
+JETSON_SLEEP
+Text Label 6600 5500 2    50   ~ 0
+JETSON_RESET
+Text Label 6600 6900 2    50   ~ 0
+Fan1_Control
+Text Label 6600 7000 2    50   ~ 0
+Fan2_Control
+Text Label 6600 7100 2    50   ~ 0
+Fan3_Control
+Text Label 7500 6600 0    50   ~ 0
+ADC_3.3V
+Text Label 7500 6500 0    50   ~ 0
+ADC_5V
+Text Label 7500 6400 0    50   ~ 0
+ADC_BATT
+Text Label 6700 1950 0    50   ~ 0
+ADC_3.3V
+Text Label 6700 1850 0    50   ~ 0
+ADC_5V
+Text Label 6700 1750 0    50   ~ 0
+ADC_BATT
+Text Label 16100 6550 2    50   ~ 0
+OPENLOG_RX
+Text Label 16100 6450 2    50   ~ 0
+OPENLOG_TX
+Text Label 7500 5800 0    50   ~ 0
+OPENLOG_RX
+Text Label 7500 5700 0    50   ~ 0
+OPENLOG_TX
+Text Label 15700 5000 2    50   ~ 0
+GPS_RX
+Text Label 15700 4900 2    50   ~ 0
+GPS_TX
+$Comp
+L power:GND #PWR?
+U 1 1 61098ECE
+P 6200 4800
+F 0 "#PWR?" H 6200 4550 50  0001 C CNN
+F 1 "GND" H 6205 4627 50  0000 C CNN
+F 2 "" H 6200 4800 50  0001 C CNN
+F 3 "" H 6200 4800 50  0001 C CNN
+	1    6200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61099B4E
+P 8200 6300
+F 0 "#PWR?" H 8200 6050 50  0001 C CNN
+F 1 "GND" H 8205 6127 50  0000 C CNN
+F 2 "" H 8200 6300 50  0001 C CNN
+F 3 "" H 8200 6300 50  0001 C CNN
+	1    8200 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6109A946
+P 7950 4750
+F 0 "#PWR?" H 7950 4600 50  0001 C CNN
+F 1 "+5V" H 7965 4923 50  0000 C CNN
+F 2 "" H 7950 4750 50  0001 C CNN
+F 3 "" H 7950 4750 50  0001 C CNN
+	1    7950 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4750 7950 4800
+Wire Wire Line
+	7950 4800 7500 4800
+Wire Wire Line
+	6200 4800 6600 4800
+$Comp
+L power:GND #PWR?
+U 1 1 610A9769
+P 13600 5050
+F 0 "#PWR?" H 13600 4800 50  0001 C CNN
+F 1 "GND" H 13605 4877 50  0000 C CNN
+F 2 "" H 13600 5050 50  0001 C CNN
+F 3 "" H 13600 5050 50  0001 C CNN
+	1    13600 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 610ADE00
+P 15700 5350
+F 0 "#PWR?" H 15700 5100 50  0001 C CNN
+F 1 "GND" H 15705 5177 50  0000 C CNN
+F 2 "" H 15700 5350 50  0001 C CNN
+F 3 "" H 15700 5350 50  0001 C CNN
+	1    15700 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 610B2F7E
+P 15800 6050
+F 0 "#PWR?" H 15800 5800 50  0001 C CNN
+F 1 "GND" H 15805 5877 50  0000 C CNN
+F 2 "" H 15800 6050 50  0001 C CNN
+F 3 "" H 15800 6050 50  0001 C CNN
+	1    15800 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 610B7464
+P 600 1850
+F 0 "#PWR?" H 600 1600 50  0001 C CNN
+F 1 "GND" H 605 1677 50  0000 C CNN
+F 2 "" H 600 1850 50  0001 C CNN
+F 3 "" H 600 1850 50  0001 C CNN
+	1    600  1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 610BC0E5
+P 750 1750
+F 0 "#PWR?" H 750 1600 50  0001 C CNN
+F 1 "+3.3V" H 765 1923 50  0000 C CNN
+F 2 "" H 750 1750 50  0001 C CNN
+F 3 "" H 750 1750 50  0001 C CNN
+	1    750  1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 610BE03A
+P 13100 4850
+F 0 "#PWR?" H 13100 4700 50  0001 C CNN
+F 1 "+3.3V" H 13115 5023 50  0000 C CNN
+F 2 "" H 13100 4850 50  0001 C CNN
+F 3 "" H 13100 4850 50  0001 C CNN
+	1    13100 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 610C39E0
+P 15550 6300
+F 0 "#PWR?" H 15550 6150 50  0001 C CNN
+F 1 "+5V" H 15565 6473 50  0000 C CNN
+F 2 "" H 15550 6300 50  0001 C CNN
+F 3 "" H 15550 6300 50  0001 C CNN
+	1    15550 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15950 5100 15700 5100
+Wire Wire Line
+	15700 5100 15700 5350
+Wire Wire Line
+	16100 6250 15900 6250
+Wire Wire Line
+	15900 6250 15900 6050
+Wire Wire Line
+	15900 6050 15800 6050
+Wire Wire Line
+	15550 6300 15550 6350
+Wire Wire Line
+	15550 6350 16100 6350
+Wire Wire Line
+	13100 4850 13750 4850
+Wire Wire Line
+	13600 5050 13600 4950
+Wire Wire Line
+	13600 4950 13750 4950
+Wire Wire Line
+	750  1750 950  1750
+Wire Wire Line
+	950  1850 600  1850
+Wire Wire Line
+	7500 4900 8200 4900
+Wire Wire Line
+	7500 6200 8200 6200
+Wire Wire Line
+	8200 6200 8200 4900
+Wire Wire Line
+	8200 6300 8200 6200
+Connection ~ 8200 6200
+Wire Wire Line
+	15950 4900 15700 4900
+Wire Wire Line
+	15950 5000 15700 5000
+Text Label 6600 6400 2    50   ~ 0
+GPS_RX
+Text Label 6600 6300 2    50   ~ 0
+GPS_TX
 $EndSCHEMATC
