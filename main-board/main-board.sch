@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:main-board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -771,36 +770,6 @@ F 3 "" H 19850 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
-U 1 1 61028D38
-P 19300 1950
-F 0 "#PWR?" H 19300 1800 50  0001 C CNN
-F 1 "+5V" H 19315 2123 50  0000 C CNN
-F 2 "" H 19300 1950 50  0001 C CNN
-F 3 "" H 19300 1950 50  0001 C CNN
-	1    19300 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19600 2000 19300 2000
-Wire Wire Line
-	19300 2000 19300 1950
-$Comp
-L power:+3.3V #PWR?
-U 1 1 6102B280
-P 19050 2100
-AR Path="/607506EB/6102B280" Ref="#PWR?"  Part="1" 
-AR Path="/6102B280" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 19050 1950 50  0001 C CNN
-F 1 "+3.3V" H 19065 2273 50  0000 C CNN
-F 2 "" H 19050 2100 50  0001 C CNN
-F 3 "" H 19050 2100 50  0001 C CNN
-	1    19050 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19050 2100 19600 2100
-$Comp
 L power:GND #PWR?
 U 1 1 6102D8AE
 P 19050 2200
@@ -828,36 +797,6 @@ F 3 "" H 19850 3900 50  0001 C CNN
 	1    19850 3450
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 61033FA9
-P 19300 3050
-F 0 "#PWR?" H 19300 2900 50  0001 C CNN
-F 1 "+5V" H 19315 3223 50  0000 C CNN
-F 2 "" H 19300 3050 50  0001 C CNN
-F 3 "" H 19300 3050 50  0001 C CNN
-	1    19300 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19600 3100 19300 3100
-Wire Wire Line
-	19300 3100 19300 3050
-$Comp
-L power:+3.3V #PWR?
-U 1 1 61033FB1
-P 19050 3200
-AR Path="/607506EB/61033FB1" Ref="#PWR?"  Part="1" 
-AR Path="/61033FB1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 19050 3050 50  0001 C CNN
-F 1 "+3.3V" H 19065 3373 50  0000 C CNN
-F 2 "" H 19050 3200 50  0001 C CNN
-F 3 "" H 19050 3200 50  0001 C CNN
-	1    19050 3200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19050 3200 19600 3200
 $Comp
 L power:GND #PWR?
 U 1 1 61033FB8
@@ -887,36 +826,6 @@ F 3 "" H 19850 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
-U 1 1 6103617B
-P 19300 4150
-F 0 "#PWR?" H 19300 4000 50  0001 C CNN
-F 1 "+5V" H 19315 4323 50  0000 C CNN
-F 2 "" H 19300 4150 50  0001 C CNN
-F 3 "" H 19300 4150 50  0001 C CNN
-	1    19300 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19600 4200 19300 4200
-Wire Wire Line
-	19300 4200 19300 4150
-$Comp
-L power:+3.3V #PWR?
-U 1 1 61036183
-P 19050 4300
-AR Path="/607506EB/61036183" Ref="#PWR?"  Part="1" 
-AR Path="/61036183" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 19050 4150 50  0001 C CNN
-F 1 "+3.3V" H 19065 4473 50  0000 C CNN
-F 2 "" H 19050 4300 50  0001 C CNN
-F 3 "" H 19050 4300 50  0001 C CNN
-	1    19050 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19050 4300 19600 4300
-$Comp
 L power:GND #PWR?
 U 1 1 6103618A
 P 19050 4400
@@ -944,36 +853,6 @@ F 3 "" H 19850 6100 50  0001 C CNN
 	1    19850 5650
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 61038C2F
-P 19300 5250
-F 0 "#PWR?" H 19300 5100 50  0001 C CNN
-F 1 "+5V" H 19315 5423 50  0000 C CNN
-F 2 "" H 19300 5250 50  0001 C CNN
-F 3 "" H 19300 5250 50  0001 C CNN
-	1    19300 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19600 5300 19300 5300
-Wire Wire Line
-	19300 5300 19300 5250
-$Comp
-L power:+3.3V #PWR?
-U 1 1 61038C37
-P 19050 5400
-AR Path="/607506EB/61038C37" Ref="#PWR?"  Part="1" 
-AR Path="/61038C37" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 19050 5250 50  0001 C CNN
-F 1 "+3.3V" H 19065 5573 50  0000 C CNN
-F 2 "" H 19050 5400 50  0001 C CNN
-F 3 "" H 19050 5400 50  0001 C CNN
-	1    19050 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19050 5400 19600 5400
 $Comp
 L power:GND #PWR?
 U 1 1 61038C3E
@@ -1003,36 +882,6 @@ F 3 "" H 19850 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
-U 1 1 6103B609
-P 19300 6350
-F 0 "#PWR?" H 19300 6200 50  0001 C CNN
-F 1 "+5V" H 19315 6523 50  0000 C CNN
-F 2 "" H 19300 6350 50  0001 C CNN
-F 3 "" H 19300 6350 50  0001 C CNN
-	1    19300 6350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19600 6400 19300 6400
-Wire Wire Line
-	19300 6400 19300 6350
-$Comp
-L power:+3.3V #PWR?
-U 1 1 6103B611
-P 19050 6500
-AR Path="/607506EB/6103B611" Ref="#PWR?"  Part="1" 
-AR Path="/6103B611" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 19050 6350 50  0001 C CNN
-F 1 "+3.3V" H 19065 6673 50  0000 C CNN
-F 2 "" H 19050 6500 50  0001 C CNN
-F 3 "" H 19050 6500 50  0001 C CNN
-	1    19050 6500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19050 6500 19600 6500
-$Comp
 L power:GND #PWR?
 U 1 1 6103B618
 P 19050 6600
@@ -1060,36 +909,6 @@ F 3 "" H 19850 8300 50  0001 C CNN
 	1    19850 7850
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 6103EC0B
-P 19300 7450
-F 0 "#PWR?" H 19300 7300 50  0001 C CNN
-F 1 "+5V" H 19315 7623 50  0000 C CNN
-F 2 "" H 19300 7450 50  0001 C CNN
-F 3 "" H 19300 7450 50  0001 C CNN
-	1    19300 7450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19600 7500 19300 7500
-Wire Wire Line
-	19300 7500 19300 7450
-$Comp
-L power:+3.3V #PWR?
-U 1 1 6103EC13
-P 19050 7600
-AR Path="/607506EB/6103EC13" Ref="#PWR?"  Part="1" 
-AR Path="/6103EC13" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 19050 7450 50  0001 C CNN
-F 1 "+3.3V" H 19065 7773 50  0000 C CNN
-F 2 "" H 19050 7600 50  0001 C CNN
-F 3 "" H 19050 7600 50  0001 C CNN
-	1    19050 7600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	19050 7600 19600 7600
 $Comp
 L power:GND #PWR?
 U 1 1 6103EC1A
@@ -1312,11 +1131,11 @@ Text Label 7500 6500 0    50   ~ 0
 ADC_5V
 Text Label 7500 6400 0    50   ~ 0
 ADC_BATT
-Text Label 6700 1950 0    50   ~ 0
+Text Label 7250 2150 0    50   ~ 0
 ADC_3.3V
-Text Label 6700 1850 0    50   ~ 0
+Text Label 7250 2050 0    50   ~ 0
 ADC_5V
-Text Label 6700 1750 0    50   ~ 0
+Text Label 7250 1950 0    50   ~ 0
 ADC_BATT
 Text Label 16100 6550 2    50   ~ 0
 OPENLOG_RX
@@ -1405,12 +1224,12 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 610B7464
-P 600 1850
-F 0 "#PWR?" H 600 1600 50  0001 C CNN
-F 1 "GND" H 605 1677 50  0000 C CNN
-F 2 "" H 600 1850 50  0001 C CNN
-F 3 "" H 600 1850 50  0001 C CNN
-	1    600  1850
+P 400 1850
+F 0 "#PWR?" H 400 1600 50  0001 C CNN
+F 1 "GND" H 405 1677 50  0000 C CNN
+F 2 "" H 400 1850 50  0001 C CNN
+F 3 "" H 400 1850 50  0001 C CNN
+	1    400  1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1433,17 +1252,6 @@ F 1 "+3.3V" H 13115 5023 50  0000 C CNN
 F 2 "" H 13100 4850 50  0001 C CNN
 F 3 "" H 13100 4850 50  0001 C CNN
 	1    13100 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 610C39E0
-P 15550 6300
-F 0 "#PWR?" H 15550 6150 50  0001 C CNN
-F 1 "+5V" H 15565 6473 50  0000 C CNN
-F 2 "" H 15550 6300 50  0001 C CNN
-F 3 "" H 15550 6300 50  0001 C CNN
-	1    15550 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1469,7 +1277,7 @@ Wire Wire Line
 Wire Wire Line
 	750  1750 950  1750
 Wire Wire Line
-	950  1850 600  1850
+	950  1850 400  1850
 Wire Wire Line
 	7500 4900 8200 4900
 Wire Wire Line
@@ -1487,4 +1295,65 @@ Text Label 6600 6400 2    50   ~ 0
 GPS_RX
 Text Label 6600 6300 2    50   ~ 0
 GPS_TX
+Text Label 6600 5900 2    50   ~ 0
+COMMS_CS
+Text Label 6600 6000 2    50   ~ 0
+MOSI
+Text Label 6600 6100 2    50   ~ 0
+MISO
+Text Label 7500 6100 0    50   ~ 0
+SCK
+Text Label 950  2150 2    50   ~ 0
+SCK
+Text Label 950  2450 2    50   ~ 0
+COMMS_CS
+Text Label 950  2350 2    50   ~ 0
+MOSI
+Text Label 950  2250 2    50   ~ 0
+MISO
+NoConn ~ 950  1950
+Text Label 950  2050 2    50   ~ 0
+COMMS_G0
+Text Label 950  2550 2    50   ~ 0
+COMMS_RST
+Text Label 6600 5200 2    50   ~ 0
+COMMS_RST
+Text Label 6600 5300 2    50   ~ 0
+COMMS_G0
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61092279
+P 15250 5200
+F 0 "#PWR?" H 15250 5050 50  0001 C CNN
+F 1 "+3.3V" H 15265 5373 50  0000 C CNN
+F 2 "" H 15250 5200 50  0001 C CNN
+F 3 "" H 15250 5200 50  0001 C CNN
+	1    15250 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15250 5200 15950 5200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 610A5207
+P 15550 6300
+F 0 "#PWR?" H 15550 6150 50  0001 C CNN
+F 1 "+3.3V" H 15565 6473 50  0000 C CNN
+F 2 "" H 15550 6300 50  0001 C CNN
+F 3 "" H 15550 6300 50  0001 C CNN
+	1    15550 6300
+	1    0    0    -1  
+$EndComp
+Text Label 13750 4750 2    50   ~ 0
+NX_SDA
+Text Label 13750 4650 2    50   ~ 0
+NX_SCL
+Text Label 9300 5250 2    50   ~ 0
+NX_SDA
+Text Label 9300 5350 2    50   ~ 0
+NX_SCL
+Wire Wire Line
+	9300 5250 9400 5250
+Wire Wire Line
+	9400 5350 9300 5350
 $EndSCHEMATC
