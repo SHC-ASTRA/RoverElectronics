@@ -1119,11 +1119,11 @@ Text Label 6600 5400 2    50   ~ 0
 JETSON_SLEEP
 Text Label 6600 5500 2    50   ~ 0
 JETSON_RESET
-Text Label 6600 6900 2    50   ~ 0
+Text Label 7500 7100 0    50   ~ 0
 Fan1_Control
-Text Label 6600 7000 2    50   ~ 0
+Text Label 7500 6800 0    50   ~ 0
 Fan2_Control
-Text Label 6600 7100 2    50   ~ 0
+Text Label 7500 6700 0    50   ~ 0
 Fan3_Control
 Text Label 7500 6600 0    50   ~ 0
 ADC_3.3V
@@ -1356,4 +1356,64 @@ Wire Wire Line
 	9300 5250 9400 5250
 Wire Wire Line
 	9400 5350 9300 5350
+$Comp
+L power:GND #PWR?
+U 1 1 6112AD47
+P 9100 7200
+F 0 "#PWR?" H 9100 6950 50  0001 C CNN
+F 1 "GND" H 9105 7027 50  0000 C CNN
+F 2 "" H 9100 7200 50  0001 C CNN
+F 3 "" H 9100 7200 50  0001 C CNN
+	1    9100 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 7200 9100 7050
+Wire Wire Line
+	9100 5550 9400 5550
+Wire Wire Line
+	9400 6350 9100 6350
+Connection ~ 9100 6350
+Wire Wire Line
+	9100 6350 9100 5550
+Wire Wire Line
+	9400 7050 9100 7050
+Connection ~ 9100 7050
+Wire Wire Line
+	9100 7050 9100 6350
+$Comp
+L power:GND #PWR?
+U 1 1 6113B29F
+P 10900 7200
+F 0 "#PWR?" H 10900 6950 50  0001 C CNN
+F 1 "GND" H 10905 7027 50  0000 C CNN
+F 2 "" H 10900 7200 50  0001 C CNN
+F 3 "" H 10900 7200 50  0001 C CNN
+	1    10900 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 5350 10900 5350
+Wire Wire Line
+	10900 5350 10900 5750
+Wire Wire Line
+	10600 6750 10900 6750
+Connection ~ 10900 6750
+Wire Wire Line
+	10900 6750 10900 7200
+Wire Wire Line
+	10600 6550 10900 6550
+Connection ~ 10900 6550
+Wire Wire Line
+	10900 6550 10900 6750
+Wire Wire Line
+	10600 6050 10900 6050
+Connection ~ 10900 6050
+Wire Wire Line
+	10900 6050 10900 6550
+Wire Wire Line
+	10600 5750 10900 5750
+Connection ~ 10900 5750
+Wire Wire Line
+	10900 5750 10900 6050
 $EndSCHEMATC
