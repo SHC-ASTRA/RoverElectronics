@@ -159,7 +159,7 @@ NoConn ~ 3750 1850
 Wire Wire Line
 	3750 1650 4300 1650
 Text Notes 5450 1150 0    50   ~ 0
-Power Supply
+Power Supplies
 Text Notes 3450 1150 0    50   ~ 0
 Battery and Switch
 Text Notes 1100 1150 0    50   ~ 0
@@ -1131,11 +1131,11 @@ Text Label 7500 6500 0    50   ~ 0
 ADC_5V
 Text Label 7500 6400 0    50   ~ 0
 ADC_BATT
-Text Label 7250 2150 0    50   ~ 0
+Text Label 7500 2100 0    50   ~ 0
 ADC_3.3V
-Text Label 7250 2050 0    50   ~ 0
+Text Label 7500 2000 0    50   ~ 0
 ADC_5V
-Text Label 7250 1950 0    50   ~ 0
+Text Label 7500 1900 0    50   ~ 0
 ADC_BATT
 Text Label 16100 6550 2    50   ~ 0
 OPENLOG_RX
@@ -1416,4 +1416,119 @@ Wire Wire Line
 Connection ~ 10900 5750
 Wire Wire Line
 	10900 5750 10900 6050
+$Comp
+L ASTRA_Library:Pololu_4095 U?
+U 1 1 611619B4
+P 5700 2050
+F 0 "U?" H 5700 2565 50  0000 C CNN
+F 1 "Pololu_4095" H 5700 2474 50  0000 C CNN
+F 2 "" H 5700 2050 50  0001 C CNN
+F 3 "" H 5700 2050 50  0001 C CNN
+	1    5700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 6116292A
+P 5150 1800
+F 0 "#PWR?" H 5150 1650 50  0001 C CNN
+F 1 "+12V" H 5165 1973 50  0000 C CNN
+F 2 "" H 5150 1800 50  0001 C CNN
+F 3 "" H 5150 1800 50  0001 C CNN
+	1    5150 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1800 5350 1800
+$Comp
+L power:+12V #PWR?
+U 1 1 61169CED
+P 6300 1800
+F 0 "#PWR?" H 6300 1650 50  0001 C CNN
+F 1 "+12V" H 6315 1973 50  0000 C CNN
+F 2 "" H 6300 1800 50  0001 C CNN
+F 3 "" H 6300 1800 50  0001 C CNN
+	1    6300 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 1800 6050 1800
+$Comp
+L power:GND #PWR?
+U 1 1 6117098E
+P 5050 1900
+F 0 "#PWR?" H 5050 1650 50  0001 C CNN
+F 1 "GND" H 5055 1727 50  0000 C CNN
+F 2 "" H 5050 1900 50  0001 C CNN
+F 3 "" H 5050 1900 50  0001 C CNN
+	1    5050 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1900 5150 1900
+Wire Wire Line
+	5150 1900 5150 2000
+Wire Wire Line
+	5350 2000 5150 2000
+$Comp
+L power:GND #PWR?
+U 1 1 6117E9FE
+P 6400 1900
+F 0 "#PWR?" H 6400 1650 50  0001 C CNN
+F 1 "GND" H 6405 1727 50  0000 C CNN
+F 2 "" H 6400 1900 50  0001 C CNN
+F 3 "" H 6400 1900 50  0001 C CNN
+	1    6400 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2000 6300 1900
+Wire Wire Line
+	6300 1900 6050 1900
+Wire Wire Line
+	6050 2000 6300 2000
+$Comp
+L power:+BATT #PWR?
+U 1 1 6118D321
+P 4850 2100
+F 0 "#PWR?" H 4850 1950 50  0001 C CNN
+F 1 "+BATT" H 4865 2273 50  0000 C CNN
+F 2 "" H 4850 2100 50  0001 C CNN
+F 3 "" H 4850 2100 50  0001 C CNN
+	1    4850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 6119629D
+P 6600 2100
+F 0 "#PWR?" H 6600 1950 50  0001 C CNN
+F 1 "+BATT" H 6615 2273 50  0000 C CNN
+F 2 "" H 6600 2100 50  0001 C CNN
+F 3 "" H 6600 2100 50  0001 C CNN
+	1    6600 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1900 5050 1900
+Connection ~ 5150 1900
+Wire Wire Line
+	4850 2100 5350 2100
+Wire Wire Line
+	6400 1900 6300 1900
+Connection ~ 6300 1900
+Wire Wire Line
+	6050 2100 6600 2100
+NoConn ~ 5350 2200
+NoConn ~ 6050 2200
+NoConn ~ 5350 2300
+NoConn ~ 6050 2300
+Text Notes 5650 1400 0    50   ~ 0
+12v
+Text Notes 5600 2750 0    50   ~ 0
+24v
+Text Notes 5600 3150 0    50   ~ 0
+5v
+Text Notes 5600 3550 0    50   ~ 0
+3.3v
 $EndSCHEMATC
