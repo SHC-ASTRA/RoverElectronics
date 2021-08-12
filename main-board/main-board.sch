@@ -148,7 +148,7 @@ AR Path="/60809B8E/60FDE0EC" Ref="U?"  Part="1"
 AR Path="/60FDE0EC" Ref="U6"  Part="1" 
 F 0 "U6" H 8820 2046 50  0000 R CNN
 F 1 "Analog Temp Sensor" H 8820 1955 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9150 1600 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 9150 1600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf" H 9000 2250 50  0001 C CNN
 F 4 "296-46127-1-ND" H 9150 2000 50  0001 C CNN "Digikey Part Num"
 	1    9150 2000
@@ -162,7 +162,7 @@ AR Path="/60809B8E/60FDE0F2" Ref="U?"  Part="1"
 AR Path="/60FDE0F2" Ref="U7"  Part="1" 
 F 0 "U7" H 9720 2046 50  0000 R CNN
 F 1 "Analog Temp Sensor" H 9720 1955 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10050 1600 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 10050 1600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf" H 9900 2250 50  0001 C CNN
 F 4 "296-46127-1-ND" H 10050 2000 50  0001 C CNN "Digikey Part Num"
 	1    10050 2000
@@ -176,7 +176,7 @@ AR Path="/60809B8E/60FDE0F8" Ref="U?"  Part="1"
 AR Path="/60FDE0F8" Ref="U8"  Part="1" 
 F 0 "U8" H 10620 2046 50  0000 R CNN
 F 1 "Analog Temp Sensor" H 10620 1955 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10950 1600 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 10950 1600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf" H 10800 2250 50  0001 C CNN
 F 4 "296-46127-1-ND" H 10950 2000 50  0001 C CNN "Digikey Part Num"
 	1    10950 2000
@@ -190,7 +190,7 @@ AR Path="/60809B8E/60FDE0FE" Ref="U?"  Part="1"
 AR Path="/60FDE0FE" Ref="U9"  Part="1" 
 F 0 "U9" H 11520 2046 50  0000 R CNN
 F 1 "Analog Temp Sensor" H 11520 1955 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 11850 1600 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 11850 1600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf" H 11700 2250 50  0001 C CNN
 F 4 "296-46127-1-ND" H 11850 2000 50  0001 C CNN "Digikey Part Num"
 	1    11850 2000
@@ -204,7 +204,7 @@ AR Path="/60809B8E/60FDE104" Ref="U?"  Part="1"
 AR Path="/60FDE104" Ref="U10"  Part="1" 
 F 0 "U10" H 12420 2046 50  0000 R CNN
 F 1 "Analog Temp Sensor" H 12420 1955 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 12750 1600 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 12750 1600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf" H 12600 2250 50  0001 C CNN
 F 4 "296-46127-1-ND" H 12750 2000 50  0001 C CNN "Digikey Part Num"
 	1    12750 2000
