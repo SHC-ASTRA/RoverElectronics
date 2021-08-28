@@ -2295,10 +2295,10 @@ Connection ~ 13300 6750
 Wire Wire Line
 	13300 6750 13300 6550
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 614879F3
 P 950 8800
-F 0 "H?" H 1050 8846 50  0000 L CNN
+F 0 "H1" H 1050 8846 50  0000 L CNN
 F 1 "MountingHole" H 1050 8755 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 8800 50  0001 C CNN
 F 3 "~" H 950 8800 50  0001 C CNN
@@ -2306,10 +2306,10 @@ F 3 "~" H 950 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H2
 U 1 1 6148830E
 P 950 9000
-F 0 "H?" H 1050 9046 50  0000 L CNN
+F 0 "H2" H 1050 9046 50  0000 L CNN
 F 1 "MountingHole" H 1050 8955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 9000 50  0001 C CNN
 F 3 "~" H 950 9000 50  0001 C CNN
@@ -2317,10 +2317,10 @@ F 3 "~" H 950 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H3
 U 1 1 61488718
 P 950 9200
-F 0 "H?" H 1050 9246 50  0000 L CNN
+F 0 "H3" H 1050 9246 50  0000 L CNN
 F 1 "MountingHole" H 1050 9155 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 9200 50  0001 C CNN
 F 3 "~" H 950 9200 50  0001 C CNN
@@ -2328,10 +2328,10 @@ F 3 "~" H 950 9200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H4
 U 1 1 61488957
 P 950 9400
-F 0 "H?" H 1050 9446 50  0000 L CNN
+F 0 "H4" H 1050 9446 50  0000 L CNN
 F 1 "MountingHole" H 1050 9355 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 9400 50  0001 C CNN
 F 3 "~" H 950 9400 50  0001 C CNN
