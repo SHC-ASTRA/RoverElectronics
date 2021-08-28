@@ -2136,114 +2136,6 @@ Wire Wire Line
 Connection ~ 19900 13800
 Wire Wire Line
 	19900 13800 19900 13900
-Text Label 8050 2150 0    50   ~ 0
-ADC_24V
-$Comp
-L Device:R_Small R11
-U 1 1 6119C6A9
-P 7750 2300
-F 0 "R11" H 7809 2346 50  0000 L CNN
-F 1 "10k" H 7809 2255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7750 2300 50  0001 C CNN
-F 3 "~" H 7750 2300 50  0001 C CNN
-F 4 "311-10.0KHRCT-ND" H 7750 2300 50  0001 C CNN "Digikey Part Num"
-	1    7750 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R10
-U 1 1 6119C6B4
-P 7750 2000
-F 0 "R10" H 7809 2046 50  0000 L CNN
-F 1 "80.6k" H 7809 1955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7750 2000 50  0001 C CNN
-F 3 "~" H 7750 2000 50  0001 C CNN
-F 4 "P20500CT-ND" H 7750 2000 50  0001 C CNN "Digikey Part Num"
-	1    7750 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 2150 7750 2150
-Wire Wire Line
-	7750 2150 7750 2100
-Wire Wire Line
-	7750 2150 7750 2200
-Connection ~ 7750 2150
-$Comp
-L Device:D_Schottky_Small D5
-U 1 1 6119C6C3
-P 7500 2000
-F 0 "D5" V 7450 1800 50  0000 L CNN
-F 1 "D_Schottky_Small" V 7550 1250 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 7500 2000 50  0001 C CNN
-F 3 "~" V 7500 2000 50  0001 C CNN
-F 4 "1514-CMDD6001TRPBFREECT-ND" H 7500 2000 50  0001 C CNN "Digikey Part Num"
-	1    7500 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky_Small D6
-U 1 1 6119C6CE
-P 7500 2300
-F 0 "D6" V 7450 2100 50  0000 L CNN
-F 1 "D_Schottky_Small" V 7550 1550 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" V 7500 2300 50  0001 C CNN
-F 3 "~" V 7500 2300 50  0001 C CNN
-F 4 "1514-CMDD6001TRPBFREECT-ND" H 7500 2300 50  0001 C CNN "Digikey Part Num"
-	1    7500 2300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7500 2100 7500 2150
-Wire Wire Line
-	7500 2150 7750 2150
-Wire Wire Line
-	7500 2200 7500 2150
-Connection ~ 7500 2150
-$Comp
-L power:GND #PWR038
-U 1 1 6119C6DC
-P 7750 2400
-F 0 "#PWR038" H 7750 2150 50  0001 C CNN
-F 1 "GND" H 7755 2227 50  0000 C CNN
-F 2 "" H 7750 2400 50  0001 C CNN
-F 3 "" H 7750 2400 50  0001 C CNN
-	1    7750 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR034
-U 1 1 6119C6E6
-P 7500 2400
-F 0 "#PWR034" H 7500 2150 50  0001 C CNN
-F 1 "GND" H 7505 2227 50  0000 C CNN
-F 2 "" H 7500 2400 50  0001 C CNN
-F 3 "" H 7500 2400 50  0001 C CNN
-	1    7500 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR033
-U 1 1 6119C6F0
-P 7500 1900
-F 0 "#PWR033" H 7500 1750 50  0001 C CNN
-F 1 "+3.3V" H 7515 2073 50  0000 C CNN
-F 2 "" H 7500 1900 50  0001 C CNN
-F 3 "" H 7500 1900 50  0001 C CNN
-	1    7500 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+24V #PWR037
-U 1 1 611B45F0
-P 7750 1900
-F 0 "#PWR037" H 7750 1750 50  0001 C CNN
-F 1 "+24V" H 7765 2073 50  0000 C CNN
-F 2 "" H 7750 1900 50  0001 C CNN
-F 3 "" H 7750 1900 50  0001 C CNN
-	1    7750 1900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR06
 U 1 1 6119CCE3
@@ -2345,6 +2237,105 @@ F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 19850 8300 50  0001 
 F 3 "" H 19850 8300 50  0001 C CNN
 F 4 "~" H 19850 7850 50  0001 C CNN "Digikey Part Num"
 	1    19850 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ASTRA_Library:ArducamPTZ J14
+U 1 1 612E83D2
+P 13950 6600
+F 0 "J14" H 14228 6646 50  0000 L CNN
+F 1 "ArducamPTZ" H 14228 6555 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical" H 13600 6950 50  0001 C CNN
+F 3 "" H 13600 6950 50  0001 C CNN
+	1    13950 6600
+	1    0    0    -1  
+$EndComp
+Text Label 13600 6350 2    50   ~ 0
+NX_SDA
+Text Label 13600 6450 2    50   ~ 0
+NX_SCL
+$Comp
+L power:GND #PWR0101
+U 1 1 612E9CF6
+P 13300 6950
+F 0 "#PWR0101" H 13300 6700 50  0001 C CNN
+F 1 "GND" H 13305 6777 50  0000 C CNN
+F 2 "" H 13300 6950 50  0001 C CNN
+F 3 "" H 13300 6950 50  0001 C CNN
+	1    13300 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 612FA1AA
+P 13100 6550
+F 0 "#PWR0102" H 13100 6400 50  0001 C CNN
+F 1 "+5V" H 13115 6723 50  0000 C CNN
+F 2 "" H 13100 6550 50  0001 C CNN
+F 3 "" H 13100 6550 50  0001 C CNN
+	1    13100 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13300 6950 13300 6750
+Wire Wire Line
+	13300 6550 13600 6550
+Wire Wire Line
+	13600 6650 13100 6650
+Wire Wire Line
+	13100 6650 13100 6550
+Wire Wire Line
+	13600 6850 13100 6850
+Wire Wire Line
+	13100 6850 13100 6650
+Connection ~ 13100 6650
+Wire Wire Line
+	13600 6750 13300 6750
+Connection ~ 13300 6750
+Wire Wire Line
+	13300 6750 13300 6550
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 614879F3
+P 950 8800
+F 0 "H?" H 1050 8846 50  0000 L CNN
+F 1 "MountingHole" H 1050 8755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 8800 50  0001 C CNN
+F 3 "~" H 950 8800 50  0001 C CNN
+	1    950  8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 6148830E
+P 950 9000
+F 0 "H?" H 1050 9046 50  0000 L CNN
+F 1 "MountingHole" H 1050 8955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 9000 50  0001 C CNN
+F 3 "~" H 950 9000 50  0001 C CNN
+	1    950  9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 61488718
+P 950 9200
+F 0 "H?" H 1050 9246 50  0000 L CNN
+F 1 "MountingHole" H 1050 9155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 9200 50  0001 C CNN
+F 3 "~" H 950 9200 50  0001 C CNN
+	1    950  9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 61488957
+P 950 9400
+F 0 "H?" H 1050 9446 50  0000 L CNN
+F 1 "MountingHole" H 1050 9355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 9400 50  0001 C CNN
+F 3 "~" H 950 9400 50  0001 C CNN
+	1    950  9400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
