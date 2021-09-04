@@ -338,11 +338,11 @@ Text Label 7500 5600 0    50   ~ 0
 ADC1
 Text Label 7500 5500 0    50   ~ 0
 ADC2
-Text Label 6600 6500 2    50   ~ 0
+Text Label 7500 6600 0    50   ~ 0
 ADC3
 Text Label 6600 6600 2    50   ~ 0
 ADC4
-Text Label 7500 6300 0    50   ~ 0
+Text Label 6600 6500 2    50   ~ 0
 ADC5
 $Comp
 L ASTRA_Library:Fan_Tacho_Reversed M1
@@ -885,30 +885,28 @@ Connection ~ 8300 9950
 Wire Wire Line
 	8300 9950 8100 9950
 Connection ~ 8750 10150
-Text Label 6600 4900 2    50   ~ 0
+Text Label 7500 7000 0    50   ~ 0
 M1_RX
-Text Label 6600 5000 2    50   ~ 0
+Text Label 7500 6900 0    50   ~ 0
 M1_TX
-Text Label 6600 5600 2    50   ~ 0
+Text Label 6600 6700 2    50   ~ 0
 M2_RX
-Text Label 6600 5700 2    50   ~ 0
+Text Label 6600 6800 2    50   ~ 0
 M2_TX
 Text Label 7500 6000 0    50   ~ 0
 M3_TX
 Text Label 7500 5900 0    50   ~ 0
 M3_RX
-Text Label 6600 6700 2    50   ~ 0
-M5_RX
-Text Label 6600 6800 2    50   ~ 0
-M5_TX
-Text Label 7500 5400 0    50   ~ 0
-M4_TX
 Text Label 7500 5300 0    50   ~ 0
+M5_RX
+Text Label 7500 5400 0    50   ~ 0
+M5_TX
+Text Label 6600 5700 2    50   ~ 0
+M4_TX
+Text Label 6600 5600 2    50   ~ 0
 M4_RX
-Text Label 7500 7000 0    50   ~ 0
+Text Label 6600 4900 2    50   ~ 0
 M6_RX
-Text Label 7500 6900 0    50   ~ 0
-M6_TX
 Text Label 6600 5100 2    50   ~ 0
 ARGB_Data
 Text Label 6600 5400 2    50   ~ 0
@@ -921,9 +919,9 @@ Text Label 7500 6800 0    50   ~ 0
 Fan2_Control
 Text Label 7500 6700 0    50   ~ 0
 Fan3_Control
-Text Label 7500 6600 0    50   ~ 0
+Text Label 7500 6500 0    50   ~ 0
 ADC_5V
-Text Label 7500 6400 0    50   ~ 0
+Text Label 7500 6300 0    50   ~ 0
 ADC_BATT
 Text Label 8050 3250 0    50   ~ 0
 ADC_5V
@@ -1516,7 +1514,7 @@ Text Notes 650  6950 0    50   ~ 0
 This part may not reliably reset\nIf this is the case, don't populate this MOSFET
 Text Label 6300 3250 0    50   ~ 0
 ADC_12V
-Text Label 7500 6500 0    50   ~ 0
+Text Label 7500 6400 0    50   ~ 0
 ADC_12V
 $Comp
 L Device:R_Small R7
@@ -2338,4 +2336,65 @@ F 3 "~" H 950 9400 50  0001 C CNN
 	1    950  9400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J15
+U 1 1 6134C702
+P 14050 8800
+F 0 "J15" H 14130 8792 50  0000 L CNN
+F 1 "Angle Sensor" H 14130 8701 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 14050 8800 50  0001 C CNN
+F 3 "AS5047D-ATSTCT-ND" H 14050 8800 50  0001 C CNN
+	1    14050 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Magnet_Small SYM1
+U 1 1 6134F49B
+P 15000 8850
+F 0 "SYM1" H 15000 8990 50  0001 C CNN
+F 1 "SYM_Magnet_Small" H 15000 8725 50  0001 C CNN
+F 2 "" H 15000 8675 50  0001 C CNN
+F 3 "~" H 15030 8650 50  0001 C CNN
+F 4 "469-1025-ND" H 15000 8850 50  0001 C CNN "Digikey Part Num"
+	1    15000 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 61354FD1
+P 13500 8600
+F 0 "#PWR0103" H 13500 8450 50  0001 C CNN
+F 1 "+3.3V" H 13515 8773 50  0000 C CNN
+F 2 "" H 13500 8600 50  0001 C CNN
+F 3 "" H 13500 8600 50  0001 C CNN
+	1    13500 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 613553D9
+P 13350 8700
+F 0 "#PWR0104" H 13350 8450 50  0001 C CNN
+F 1 "GND" H 13355 8527 50  0000 C CNN
+F 2 "" H 13350 8700 50  0001 C CNN
+F 3 "" H 13350 8700 50  0001 C CNN
+	1    13350 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 8600 13500 8600
+Wire Wire Line
+	13350 8700 13850 8700
+Text Label 13850 8800 2    50   ~ 0
+MOSI
+Text Label 13850 8900 2    50   ~ 0
+MISO
+Text Label 13850 9000 2    50   ~ 0
+SCK
+Text Label 13850 9100 2    50   ~ 0
+Angle_CS
+Text Label 6600 5800 2    50   ~ 0
+Angle_CS
+Text Label 6600 5000 2    50   ~ 0
+M6_TX
 $EndSCHEMATC
