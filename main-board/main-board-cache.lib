@@ -211,6 +211,22 @@ X P7 9 -450 350 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# ASTRA_Library_XT60_Battery_Connector
+#
+DEF ASTRA_Library_XT60_Battery_Connector BT 0 40 N N 1 F N
+F0 "BT" 0 0 50 H V C CNN
+F1 "ASTRA_Library_XT60_Battery_Connector" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 100 50 0 0 0 + Normal 0 C C
+T 0 0 -100 50 0 0 0 - Normal 0 C C
+P 7 0 1 0 -100 150 100 150 100 -100 50 -150 -50 -150 -100 -100 -100 150 f
+X Neg 1 0 -250 100 U 50 50 1 1 I
+X Pos 2 0 250 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_01x02
 #
 DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
@@ -275,31 +291,6 @@ X Pin_3 3 -200 0 150 R 50 50 1 1 P
 X Pin_4 4 -200 -100 150 R 50 50 1 1 P
 X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 X Pin_6 6 -200 -300 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Battery
-#
-DEF Device_Battery BT 0 0 N N 1 F N
-F0 "BT" 100 100 50 H V L CNN
-F1 "Device_Battery" 100 0 50 H V L CNN
-F2 "" 0 60 50 V I C CNN
-F3 "" 0 60 50 V I C CNN
-DRAW
-S -80 -55 80 -65 0 1 0 F
-S -80 70 80 60 0 1 0 F
-S -52 -78 50 -98 0 1 0 F
-S -52 47 50 27 0 1 0 F
-P 2 0 1 0 0 -60 0 -50 N
-P 2 0 1 0 0 -40 0 -30 N
-P 2 0 1 0 0 -20 0 -10 N
-P 2 0 1 0 0 0 0 10 N
-P 2 0 1 0 0 20 0 30 N
-P 2 0 1 0 0 70 0 100 N
-P 2 0 1 10 10 105 50 105 N
-P 2 0 1 10 30 125 30 85 N
-X + 1 0 200 100 D 50 50 1 1 P
-X - 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
