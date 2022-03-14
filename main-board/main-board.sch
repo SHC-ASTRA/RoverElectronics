@@ -1038,9 +1038,9 @@ Wire Wire Line
 	15950 4900 15700 4900
 Wire Wire Line
 	15950 5000 15700 5000
-Text Label 6600 6400 2    50   ~ 0
-GPS_RX
 Text Label 6600 6300 2    50   ~ 0
+GPS_RX
+Text Label 6600 6400 2    50   ~ 0
 GPS_TX
 Text Label 6600 5900 2    50   ~ 0
 COMMS_CS
@@ -1206,7 +1206,7 @@ F 3 "" H 3950 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 5200 3750 5200
+	3950 5200 3900 5200
 $Comp
 L power:+12V #PWR017
 U 1 1 612275EF
@@ -1260,41 +1260,30 @@ Wire Wire Line
 $Comp
 L Device:R_Small R1
 U 1 1 61269DDD
-P 1400 5350
-F 0 "R1" H 1459 5396 50  0000 L CNN
-F 1 "100k" H 1459 5305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1400 5350 50  0001 C CNN
-F 3 "~" H 1400 5350 50  0001 C CNN
-F 4 "311-100KHRCT-ND" H 1400 5350 50  0001 C CNN "Digikey Part Num"
-	1    1400 5350
+P 1400 5100
+F 0 "R1" H 1459 5146 50  0000 L CNN
+F 1 "100k" H 1459 5055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1400 5100 50  0001 C CNN
+F 3 "~" H 1400 5100 50  0001 C CNN
+F 4 "311-100KHRCT-ND" H 1400 5100 50  0001 C CNN "Digikey Part Num"
+	1    1400 5100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 5500 1400 5500
-Wire Wire Line
-	1400 5500 1400 5450
-Connection ~ 1800 5500
-Wire Wire Line
-	1400 5250 1400 5200
 Connection ~ 1400 5200
 Wire Wire Line
 	1400 5200 1500 5200
 $Comp
 L Device:R_Small R4
 U 1 1 6127ADA1
-P 4150 4900
-F 0 "R4" H 4209 4946 50  0000 L CNN
-F 1 "1.82k" H 4209 4855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 4900 50  0001 C CNN
-F 3 "~" H 4150 4900 50  0001 C CNN
-F 4 "311-1.82KHRCT-ND" H 4150 4900 50  0001 C CNN "Digikey Part Num"
-	1    4150 4900
+P 3900 5100
+F 0 "R4" H 3959 5146 50  0000 L CNN
+F 1 "1.82k" H 3959 5055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3900 5100 50  0001 C CNN
+F 3 "~" H 3900 5100 50  0001 C CNN
+F 4 "311-1.82KHRCT-ND" H 3900 5100 50  0001 C CNN "Digikey Part Num"
+	1    3900 5100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 4800 3950 4800
-Wire Wire Line
-	4150 5000 3750 5000
 $Comp
 L Device:CP_Small C1
 U 1 1 6128C033
@@ -1362,7 +1351,7 @@ F 3 "" H 3000 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 7200 3000 7200
+	3200 7200 3100 7200
 $Comp
 L power:GND #PWR021
 U 1 1 612A9CED
@@ -1375,7 +1364,7 @@ F 3 "" H 4400 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 7200 4200 7200
+	4400 7200 4350 7200
 Wire Wire Line
 	4400 6800 4200 6800
 NoConn ~ 4200 7100
@@ -1385,74 +1374,17 @@ Wire Wire Line
 	4400 6900 4400 6800
 Connection ~ 4400 6800
 $Comp
-L Device:Q_NMOS_GSD Q2
-U 1 1 612A9D07
-P 2150 7200
-F 0 "Q2" H 2354 7246 50  0000 L CNN
-F 1 "Q_NMOS_GSD" H 2354 7155 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2350 7300 50  0001 C CNN
-F 3 "~" H 2150 7200 50  0001 C CNN
-F 4 "SSM3K2615RLFCT-ND" H 2150 7200 50  0001 C CNN "Digikey Part Num"
-	1    2150 7200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 7000 2250 7000
-$Comp
-L power:GND #PWR05
-U 1 1 612A9D12
-P 2250 7500
-F 0 "#PWR05" H 2250 7250 50  0001 C CNN
-F 1 "GND" H 2255 7327 50  0000 C CNN
-F 2 "" H 2250 7500 50  0001 C CNN
-F 3 "" H 2250 7500 50  0001 C CNN
-	1    2250 7500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 7500 2250 7400
-Text Label 1800 7200 2    50   ~ 0
-5V_Disable
-Wire Wire Line
-	1800 7200 1850 7200
-$Comp
-L Device:R_Small R2
-U 1 1 612A9D1F
-P 1850 7350
-F 0 "R2" H 1909 7396 50  0000 L CNN
-F 1 "100k" H 1909 7305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1850 7350 50  0001 C CNN
-F 3 "~" H 1850 7350 50  0001 C CNN
-F 4 "311-100KHRCT-ND" H 1850 7350 50  0001 C CNN "Digikey Part Num"
-	1    1850 7350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 7500 1850 7500
-Wire Wire Line
-	1850 7500 1850 7450
-Connection ~ 2250 7500
-Wire Wire Line
-	1850 7250 1850 7200
-Connection ~ 1850 7200
-Wire Wire Line
-	1850 7200 1950 7200
-$Comp
 L Device:R_Small R5
 U 1 1 612A9D2F
-P 4600 6900
-F 0 "R5" H 4659 6946 50  0000 L CNN
-F 1 "8.45k" H 4659 6855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4600 6900 50  0001 C CNN
-F 3 "~" H 4600 6900 50  0001 C CNN
-F 4 "311-8.45KHRCT-ND" H 4600 6900 50  0001 C CNN "Digikey Part Num"
-	1    4600 6900
+P 4350 7100
+F 0 "R5" H 4409 7146 50  0000 L CNN
+F 1 "8.45k" H 4409 7055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4350 7100 50  0001 C CNN
+F 3 "~" H 4350 7100 50  0001 C CNN
+F 4 "311-8.45KHRCT-ND" H 4350 7100 50  0001 C CNN "Digikey Part Num"
+	1    4350 7100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4600 6800 4400 6800
-Wire Wire Line
-	4600 7000 4200 7000
 $Comp
 L Device:CP_Small C2
 U 1 1 612A9D3B
@@ -1481,8 +1413,6 @@ F 3 "" H 2550 6800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2650 6800 2550 6800
-Text Label 6600 7000 2    50   ~ 0
-5V_Disable
 $Comp
 L power:+3.3V #PWR044
 U 1 1 612EF66D
@@ -1496,8 +1426,6 @@ F 3 "" H 8350 5000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8350 5000 7500 5000
-Text Notes 650  6950 0    50   ~ 0
-This part may not reliably reset\nIf this is the case, don't populate this MOSFET
 Text Label 6300 3250 0    50   ~ 0
 ADC_12V
 Text Label 7500 6400 0    50   ~ 0
@@ -2284,7 +2212,7 @@ U 1 1 614879F3
 P 950 8800
 F 0 "H1" H 1050 8846 50  0000 L CNN
 F 1 "MountingHole" H 1050 8755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 8800 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 950 8800 50  0001 C CNN
 F 3 "~" H 950 8800 50  0001 C CNN
 	1    950  8800
 	1    0    0    -1  
@@ -2295,7 +2223,7 @@ U 1 1 6148830E
 P 950 9000
 F 0 "H2" H 1050 9046 50  0000 L CNN
 F 1 "MountingHole" H 1050 8955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 9000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 950 9000 50  0001 C CNN
 F 3 "~" H 950 9000 50  0001 C CNN
 	1    950  9000
 	1    0    0    -1  
@@ -2306,7 +2234,7 @@ U 1 1 61488718
 P 950 9200
 F 0 "H3" H 1050 9246 50  0000 L CNN
 F 1 "MountingHole" H 1050 9155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 9200 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 950 9200 50  0001 C CNN
 F 3 "~" H 950 9200 50  0001 C CNN
 	1    950  9200
 	1    0    0    -1  
@@ -2317,7 +2245,7 @@ U 1 1 61488957
 P 950 9400
 F 0 "H4" H 1050 9446 50  0000 L CNN
 F 1 "MountingHole" H 1050 9355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 950 9400 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 950 9400 50  0001 C CNN
 F 3 "~" H 950 9400 50  0001 C CNN
 	1    950  9400
 	1    0    0    -1  
@@ -2392,6 +2320,118 @@ F 1 "XT60_Battery_Connector" H 3572 1855 50  0000 R CNN
 F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 3700 1900 50  0001 C CNN
 F 3 "" H 3700 1900 50  0001 C CNN
 	1    3700 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 5000 3750 5000
+Connection ~ 3900 5200
+Wire Wire Line
+	3900 5200 3750 5200
+Wire Wire Line
+	4350 7000 4200 7000
+Connection ~ 4350 7200
+Wire Wire Line
+	4350 7200 4200 7200
+$Comp
+L Device:C_Small C3
+U 1 1 62452E85
+P 4300 5000
+F 0 "C3" H 4392 5046 50  0000 L CNN
+F 1 "0.1u" H 4392 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4300 5000 50  0001 C CNN
+F 3 "~" H 4300 5000 50  0001 C CNN
+	1    4300 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4800 4300 4800
+Wire Wire Line
+	4650 4800 4650 4900
+Wire Wire Line
+	4300 4900 4300 4800
+Connection ~ 4300 4800
+Wire Wire Line
+	4300 4800 4650 4800
+Wire Wire Line
+	3950 5200 4300 5200
+Wire Wire Line
+	4650 5200 4650 5100
+Connection ~ 3950 5200
+Wire Wire Line
+	4300 5100 4300 5200
+Connection ~ 4300 5200
+Wire Wire Line
+	4300 5200 4650 5200
+Wire Wire Line
+	3200 7000 3100 7000
+Wire Wire Line
+	3100 7000 3100 7200
+Connection ~ 3100 7200
+Wire Wire Line
+	3100 7200 3000 7200
+$Comp
+L Device:C_Small C7
+U 1 1 624BC7F6
+P 4750 7000
+F 0 "C7" H 4842 7046 50  0000 L CNN
+F 1 "0.1u" H 4842 6955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4750 7000 50  0001 C CNN
+F 3 "~" H 4750 7000 50  0001 C CNN
+	1    4750 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 6800 4750 6800
+Wire Wire Line
+	5100 6800 5100 6900
+Wire Wire Line
+	4750 6900 4750 6800
+Connection ~ 4750 6800
+Wire Wire Line
+	4750 6800 5100 6800
+Wire Wire Line
+	4400 7200 4750 7200
+Wire Wire Line
+	5100 7200 5100 7100
+Wire Wire Line
+	4750 7100 4750 7200
+Connection ~ 4750 7200
+Wire Wire Line
+	4750 7200 5100 7200
+Connection ~ 4400 7200
+$Comp
+L power:+3.3V #PWR0105
+U 1 1 624D0C46
+P 1400 5000
+F 0 "#PWR0105" H 1400 4850 50  0001 C CNN
+F 1 "+3.3V" H 1415 5173 50  0000 C CNN
+F 2 "" H 1400 5000 50  0001 C CNN
+F 3 "" H 1400 5000 50  0001 C CNN
+	1    1400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 625377A1
+P 4650 5000
+F 0 "C4" H 4742 5046 50  0000 L CNN
+F 1 "22u" H 4742 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 4650 5000 50  0001 C CNN
+F 3 "~" H 4650 5000 50  0001 C CNN
+F 4 "311-2053-1-ND" H 4650 5000 50  0001 C CNN "Digikey Part Num"
+	1    4650 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 62539002
+P 5100 7000
+F 0 "C8" H 5192 7046 50  0000 L CNN
+F 1 "22u" H 5192 6955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5100 7000 50  0001 C CNN
+F 3 "~" H 5100 7000 50  0001 C CNN
+F 4 "311-2053-1-ND" H 5100 7000 50  0001 C CNN "Digikey Part Num"
+	1    5100 7000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
